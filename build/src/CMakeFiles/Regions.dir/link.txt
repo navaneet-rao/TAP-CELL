@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall CMakeFiles/Regions.dir/Regions.c.o -o Regions 
