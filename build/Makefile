@@ -155,6 +155,71 @@ EnumExample/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/EnumExample.dir/build.make src/CMakeFiles/EnumExample.dir/build
 .PHONY : EnumExample/fast
 
+#=============================================================================
+# Target rules for targets named ZeroOne
+
+# Build rule for target.
+ZeroOne: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZeroOne
+.PHONY : ZeroOne
+
+# fast build rule for target.
+ZeroOne/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZeroOne.dir/build.make src/CMakeFiles/ZeroOne.dir/build
+.PHONY : ZeroOne/fast
+
+#=============================================================================
+# Target rules for targets named Heart
+
+# Build rule for target.
+Heart: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Heart
+.PHONY : Heart
+
+# fast build rule for target.
+Heart/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Heart.dir/build.make src/CMakeFiles/Heart.dir/build
+.PHONY : Heart/fast
+
+#=============================================================================
+# Target rules for targets named HammingWeight
+
+# Build rule for target.
+HammingWeight: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HammingWeight
+.PHONY : HammingWeight
+
+# fast build rule for target.
+HammingWeight/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/HammingWeight.dir/build.make src/CMakeFiles/HammingWeight.dir/build
+.PHONY : HammingWeight/fast
+
+#=============================================================================
+# Target rules for targets named RevInt
+
+# Build rule for target.
+RevInt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RevInt
+.PHONY : RevInt
+
+# fast build rule for target.
+RevInt/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/RevInt.dir/build.make src/CMakeFiles/RevInt.dir/build
+.PHONY : RevInt/fast
+
+#=============================================================================
+# Target rules for targets named Pointers
+
+# Build rule for target.
+Pointers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Pointers
+.PHONY : Pointers
+
+# fast build rule for target.
+Pointers/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/build
+.PHONY : Pointers/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,7 +229,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... EnumExample"
+	@echo "... HammingWeight"
+	@echo "... Heart"
+	@echo "... Pointers"
 	@echo "... Regions"
+	@echo "... RevInt"
+	@echo "... ZeroOne"
 	@echo "... ZigZag"
 .PHONY : help
 

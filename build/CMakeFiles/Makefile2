@@ -81,6 +81,11 @@ clean: src/clean
 src/all: src/CMakeFiles/ZigZag.dir/all
 src/all: src/CMakeFiles/Regions.dir/all
 src/all: src/CMakeFiles/EnumExample.dir/all
+src/all: src/CMakeFiles/ZeroOne.dir/all
+src/all: src/CMakeFiles/Heart.dir/all
+src/all: src/CMakeFiles/HammingWeight.dir/all
+src/all: src/CMakeFiles/RevInt.dir/all
+src/all: src/CMakeFiles/Pointers.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -91,6 +96,11 @@ src/preinstall:
 src/clean: src/CMakeFiles/ZigZag.dir/clean
 src/clean: src/CMakeFiles/Regions.dir/clean
 src/clean: src/CMakeFiles/EnumExample.dir/clean
+src/clean: src/CMakeFiles/ZeroOne.dir/clean
+src/clean: src/CMakeFiles/Heart.dir/clean
+src/clean: src/CMakeFiles/HammingWeight.dir/clean
+src/clean: src/CMakeFiles/RevInt.dir/clean
+src/clean: src/CMakeFiles/Pointers.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -100,7 +110,7 @@ src/clean: src/CMakeFiles/EnumExample.dir/clean
 src/CMakeFiles/ZigZag.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZigZag.dir/build.make src/CMakeFiles/ZigZag.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZigZag.dir/build.make src/CMakeFiles/ZigZag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=5,6 "Built target ZigZag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=15,16 "Built target ZigZag"
 .PHONY : src/CMakeFiles/ZigZag.dir/all
 
 # Build rule for subdir invocation for target.
@@ -126,7 +136,7 @@ src/CMakeFiles/ZigZag.dir/clean:
 src/CMakeFiles/Regions.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Regions.dir/build.make src/CMakeFiles/Regions.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Regions.dir/build.make src/CMakeFiles/Regions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=3,4 "Built target Regions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=9,10 "Built target Regions"
 .PHONY : src/CMakeFiles/Regions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -170,6 +180,136 @@ EnumExample: src/CMakeFiles/EnumExample.dir/rule
 src/CMakeFiles/EnumExample.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/EnumExample.dir/build.make src/CMakeFiles/EnumExample.dir/clean
 .PHONY : src/CMakeFiles/EnumExample.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/ZeroOne.dir
+
+# All Build rule for target.
+src/CMakeFiles/ZeroOne.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZeroOne.dir/build.make src/CMakeFiles/ZeroOne.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZeroOne.dir/build.make src/CMakeFiles/ZeroOne.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=13,14 "Built target ZeroOne"
+.PHONY : src/CMakeFiles/ZeroOne.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/ZeroOne.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ZeroOne.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/ZeroOne.dir/rule
+
+# Convenience name for target.
+ZeroOne: src/CMakeFiles/ZeroOne.dir/rule
+.PHONY : ZeroOne
+
+# clean rule for target.
+src/CMakeFiles/ZeroOne.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZeroOne.dir/build.make src/CMakeFiles/ZeroOne.dir/clean
+.PHONY : src/CMakeFiles/ZeroOne.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/Heart.dir
+
+# All Build rule for target.
+src/CMakeFiles/Heart.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Heart.dir/build.make src/CMakeFiles/Heart.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Heart.dir/build.make src/CMakeFiles/Heart.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=5,6 "Built target Heart"
+.PHONY : src/CMakeFiles/Heart.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/Heart.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Heart.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/Heart.dir/rule
+
+# Convenience name for target.
+Heart: src/CMakeFiles/Heart.dir/rule
+.PHONY : Heart
+
+# clean rule for target.
+src/CMakeFiles/Heart.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Heart.dir/build.make src/CMakeFiles/Heart.dir/clean
+.PHONY : src/CMakeFiles/Heart.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/HammingWeight.dir
+
+# All Build rule for target.
+src/CMakeFiles/HammingWeight.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/HammingWeight.dir/build.make src/CMakeFiles/HammingWeight.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/HammingWeight.dir/build.make src/CMakeFiles/HammingWeight.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=3,4 "Built target HammingWeight"
+.PHONY : src/CMakeFiles/HammingWeight.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/HammingWeight.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/HammingWeight.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/HammingWeight.dir/rule
+
+# Convenience name for target.
+HammingWeight: src/CMakeFiles/HammingWeight.dir/rule
+.PHONY : HammingWeight
+
+# clean rule for target.
+src/CMakeFiles/HammingWeight.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/HammingWeight.dir/build.make src/CMakeFiles/HammingWeight.dir/clean
+.PHONY : src/CMakeFiles/HammingWeight.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/RevInt.dir
+
+# All Build rule for target.
+src/CMakeFiles/RevInt.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/RevInt.dir/build.make src/CMakeFiles/RevInt.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/RevInt.dir/build.make src/CMakeFiles/RevInt.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=11,12 "Built target RevInt"
+.PHONY : src/CMakeFiles/RevInt.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/RevInt.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/RevInt.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/RevInt.dir/rule
+
+# Convenience name for target.
+RevInt: src/CMakeFiles/RevInt.dir/rule
+.PHONY : RevInt
+
+# clean rule for target.
+src/CMakeFiles/RevInt.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/RevInt.dir/build.make src/CMakeFiles/RevInt.dir/clean
+.PHONY : src/CMakeFiles/RevInt.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/Pointers.dir
+
+# All Build rule for target.
+src/CMakeFiles/Pointers.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=7,8 "Built target Pointers"
+.PHONY : src/CMakeFiles/Pointers.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/Pointers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Pointers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/Pointers.dir/rule
+
+# Convenience name for target.
+Pointers: src/CMakeFiles/Pointers.dir/rule
+.PHONY : Pointers
+
+# clean rule for target.
+src/CMakeFiles/Pointers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/clean
+.PHONY : src/CMakeFiles/Pointers.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -3,5 +3,10 @@
 /home/luke/PlacementTraning/build/src/CMakeFiles/ZigZag.dir
 /home/luke/PlacementTraning/build/src/CMakeFiles/Regions.dir
 /home/luke/PlacementTraning/build/src/CMakeFiles/EnumExample.dir
+/home/luke/PlacementTraning/build/src/CMakeFiles/ZeroOne.dir
+/home/luke/PlacementTraning/build/src/CMakeFiles/Heart.dir
+/home/luke/PlacementTraning/build/src/CMakeFiles/HammingWeight.dir
+/home/luke/PlacementTraning/build/src/CMakeFiles/RevInt.dir
+/home/luke/PlacementTraning/build/src/CMakeFiles/Pointers.dir
 /home/luke/PlacementTraning/build/src/CMakeFiles/edit_cache.dir
 /home/luke/PlacementTraning/build/src/CMakeFiles/rebuild_cache.dir

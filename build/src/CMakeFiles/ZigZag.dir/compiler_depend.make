@@ -3,7 +3,7 @@
 
 src/CMakeFiles/ZigZag.dir/ZigZag.c.o: ../src/ZigZag.c \
   /usr/include/stdc-predef.h \
-  ../include/ZigZag.h \
+  ../include/Common.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -40,8 +40,6 @@ src/CMakeFiles/ZigZag.dir/ZigZag.c.o: ../src/ZigZag.c \
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
@@ -58,7 +56,9 @@ src/CMakeFiles/ZigZag.dir/ZigZag.c.o: ../src/ZigZag.c \
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-../include/ZigZag.h:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+../include/Common.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 

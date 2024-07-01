@@ -1,4 +1,5 @@
-#include "ZigZag.h"
+#include "Common.h"
+
 void zigZag1(int);
 void zigZag2(int);
 int main() {

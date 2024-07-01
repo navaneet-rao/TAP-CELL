@@ -158,6 +158,148 @@ EnumExample/fast:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/EnumExample.dir/build.make src/CMakeFiles/EnumExample.dir/build
 .PHONY : EnumExample/fast
 
+# Convenience name for target.
+src/CMakeFiles/ZeroOne.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ZeroOne.dir/rule
+.PHONY : src/CMakeFiles/ZeroOne.dir/rule
+
+# Convenience name for target.
+ZeroOne: src/CMakeFiles/ZeroOne.dir/rule
+.PHONY : ZeroOne
+
+# fast build rule for target.
+ZeroOne/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZeroOne.dir/build.make src/CMakeFiles/ZeroOne.dir/build
+.PHONY : ZeroOne/fast
+
+# Convenience name for target.
+src/CMakeFiles/Heart.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Heart.dir/rule
+.PHONY : src/CMakeFiles/Heart.dir/rule
+
+# Convenience name for target.
+Heart: src/CMakeFiles/Heart.dir/rule
+.PHONY : Heart
+
+# fast build rule for target.
+Heart/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Heart.dir/build.make src/CMakeFiles/Heart.dir/build
+.PHONY : Heart/fast
+
+# Convenience name for target.
+src/CMakeFiles/HammingWeight.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/HammingWeight.dir/rule
+.PHONY : src/CMakeFiles/HammingWeight.dir/rule
+
+# Convenience name for target.
+HammingWeight: src/CMakeFiles/HammingWeight.dir/rule
+.PHONY : HammingWeight
+
+# fast build rule for target.
+HammingWeight/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HammingWeight.dir/build.make src/CMakeFiles/HammingWeight.dir/build
+.PHONY : HammingWeight/fast
+
+# Convenience name for target.
+src/CMakeFiles/RevInt.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/RevInt.dir/rule
+.PHONY : src/CMakeFiles/RevInt.dir/rule
+
+# Convenience name for target.
+RevInt: src/CMakeFiles/RevInt.dir/rule
+.PHONY : RevInt
+
+# fast build rule for target.
+RevInt/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RevInt.dir/build.make src/CMakeFiles/RevInt.dir/build
+.PHONY : RevInt/fast
+
+# Convenience name for target.
+src/CMakeFiles/Pointers.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Pointers.dir/rule
+.PHONY : src/CMakeFiles/Pointers.dir/rule
+
+# Convenience name for target.
+Pointers: src/CMakeFiles/Pointers.dir/rule
+.PHONY : Pointers
+
+# fast build rule for target.
+Pointers/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/build
+.PHONY : Pointers/fast
+
+HammingWeight.o: HammingWeight.c.o
+.PHONY : HammingWeight.o
+
+# target to build an object file
+HammingWeight.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HammingWeight.dir/build.make src/CMakeFiles/HammingWeight.dir/HammingWeight.c.o
+.PHONY : HammingWeight.c.o
+
+HammingWeight.i: HammingWeight.c.i
+.PHONY : HammingWeight.i
+
+# target to preprocess a source file
+HammingWeight.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HammingWeight.dir/build.make src/CMakeFiles/HammingWeight.dir/HammingWeight.c.i
+.PHONY : HammingWeight.c.i
+
+HammingWeight.s: HammingWeight.c.s
+.PHONY : HammingWeight.s
+
+# target to generate assembly for a file
+HammingWeight.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/HammingWeight.dir/build.make src/CMakeFiles/HammingWeight.dir/HammingWeight.c.s
+.PHONY : HammingWeight.c.s
+
+Heart.o: Heart.c.o
+.PHONY : Heart.o
+
+# target to build an object file
+Heart.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Heart.dir/build.make src/CMakeFiles/Heart.dir/Heart.c.o
+.PHONY : Heart.c.o
+
+Heart.i: Heart.c.i
+.PHONY : Heart.i
+
+# target to preprocess a source file
+Heart.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Heart.dir/build.make src/CMakeFiles/Heart.dir/Heart.c.i
+.PHONY : Heart.c.i
+
+Heart.s: Heart.c.s
+.PHONY : Heart.s
+
+# target to generate assembly for a file
+Heart.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Heart.dir/build.make src/CMakeFiles/Heart.dir/Heart.c.s
+.PHONY : Heart.c.s
+
+Pointers.o: Pointers.c.o
+.PHONY : Pointers.o
+
+# target to build an object file
+Pointers.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/Pointers.c.o
+.PHONY : Pointers.c.o
+
+Pointers.i: Pointers.c.i
+.PHONY : Pointers.i
+
+# target to preprocess a source file
+Pointers.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/Pointers.c.i
+.PHONY : Pointers.c.i
+
+Pointers.s: Pointers.c.s
+.PHONY : Pointers.s
+
+# target to generate assembly for a file
+Pointers.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/Pointers.c.s
+.PHONY : Pointers.c.s
+
 Regions.o: Regions.c.o
 .PHONY : Regions.o
 
@@ -181,6 +323,54 @@ Regions.s: Regions.c.s
 Regions.c.s:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Regions.dir/build.make src/CMakeFiles/Regions.dir/Regions.c.s
 .PHONY : Regions.c.s
+
+RevInt.o: RevInt.c.o
+.PHONY : RevInt.o
+
+# target to build an object file
+RevInt.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RevInt.dir/build.make src/CMakeFiles/RevInt.dir/RevInt.c.o
+.PHONY : RevInt.c.o
+
+RevInt.i: RevInt.c.i
+.PHONY : RevInt.i
+
+# target to preprocess a source file
+RevInt.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RevInt.dir/build.make src/CMakeFiles/RevInt.dir/RevInt.c.i
+.PHONY : RevInt.c.i
+
+RevInt.s: RevInt.c.s
+.PHONY : RevInt.s
+
+# target to generate assembly for a file
+RevInt.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RevInt.dir/build.make src/CMakeFiles/RevInt.dir/RevInt.c.s
+.PHONY : RevInt.c.s
+
+ZeroOne.o: ZeroOne.c.o
+.PHONY : ZeroOne.o
+
+# target to build an object file
+ZeroOne.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZeroOne.dir/build.make src/CMakeFiles/ZeroOne.dir/ZeroOne.c.o
+.PHONY : ZeroOne.c.o
+
+ZeroOne.i: ZeroOne.c.i
+.PHONY : ZeroOne.i
+
+# target to preprocess a source file
+ZeroOne.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZeroOne.dir/build.make src/CMakeFiles/ZeroOne.dir/ZeroOne.c.i
+.PHONY : ZeroOne.c.i
+
+ZeroOne.s: ZeroOne.c.s
+.PHONY : ZeroOne.s
+
+# target to generate assembly for a file
+ZeroOne.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZeroOne.dir/build.make src/CMakeFiles/ZeroOne.dir/ZeroOne.c.s
+.PHONY : ZeroOne.c.s
 
 ZigZag.o: ZigZag.c.o
 .PHONY : ZigZag.o
@@ -239,11 +429,31 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... EnumExample"
+	@echo "... HammingWeight"
+	@echo "... Heart"
+	@echo "... Pointers"
 	@echo "... Regions"
+	@echo "... RevInt"
+	@echo "... ZeroOne"
 	@echo "... ZigZag"
+	@echo "... HammingWeight.o"
+	@echo "... HammingWeight.i"
+	@echo "... HammingWeight.s"
+	@echo "... Heart.o"
+	@echo "... Heart.i"
+	@echo "... Heart.s"
+	@echo "... Pointers.o"
+	@echo "... Pointers.i"
+	@echo "... Pointers.s"
 	@echo "... Regions.o"
 	@echo "... Regions.i"
 	@echo "... Regions.s"
+	@echo "... RevInt.o"
+	@echo "... RevInt.i"
+	@echo "... RevInt.s"
+	@echo "... ZeroOne.o"
+	@echo "... ZeroOne.i"
+	@echo "... ZeroOne.s"
 	@echo "... ZigZag.o"
 	@echo "... ZigZag.i"
 	@echo "... ZigZag.s"

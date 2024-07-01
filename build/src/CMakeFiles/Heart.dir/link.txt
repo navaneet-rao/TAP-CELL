@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall CMakeFiles/Heart.dir/Heart.c.o -o Heart 

@@ -48,4 +48,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/ZigZag.dir/DependInfo.cmake"
   "src/CMakeFiles/Regions.dir/DependInfo.cmake"
   "src/CMakeFiles/EnumExample.dir/DependInfo.cmake"
+  "src/CMakeFiles/ZeroOne.dir/DependInfo.cmake"
+  "src/CMakeFiles/Heart.dir/DependInfo.cmake"
+  "src/CMakeFiles/HammingWeight.dir/DependInfo.cmake"
+  "src/CMakeFiles/RevInt.dir/DependInfo.cmake"
+  "src/CMakeFiles/Pointers.dir/DependInfo.cmake"
   )

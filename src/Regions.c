@@ -1,4 +1,4 @@
-#include "Regions.h"
+#include "Common.h"
 
 int maxRegions(int n) {
   int regions = (n * (n + 1)) / 2 + 1;

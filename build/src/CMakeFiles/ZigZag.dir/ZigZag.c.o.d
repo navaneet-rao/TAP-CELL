@@ -1,6 +1,6 @@
 src/CMakeFiles/ZigZag.dir/ZigZag.c.o: \
  /home/luke/PlacementTraning/src/ZigZag.c /usr/include/stdc-predef.h \
- /home/luke/PlacementTraning/include/ZigZag.h /usr/include/stdio.h \
+ /home/luke/PlacementTraning/include/Common.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
