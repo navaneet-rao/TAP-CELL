@@ -220,6 +220,175 @@ Pointers/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/build
 .PHONY : Pointers/fast
 
+#=============================================================================
+# Target rules for targets named Pointer1
+
+# Build rule for target.
+Pointer1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Pointer1
+.PHONY : Pointer1
+
+# fast build rule for target.
+Pointer1/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointer1.dir/build.make src/CMakeFiles/Pointer1.dir/build
+.PHONY : Pointer1/fast
+
+#=============================================================================
+# Target rules for targets named Arr
+
+# Build rule for target.
+Arr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Arr
+.PHONY : Arr
+
+# fast build rule for target.
+Arr/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Arr.dir/build.make src/CMakeFiles/Arr.dir/build
+.PHONY : Arr/fast
+
+#=============================================================================
+# Target rules for targets named ArrNoSort
+
+# Build rule for target.
+ArrNoSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ArrNoSort
+.PHONY : ArrNoSort
+
+# fast build rule for target.
+ArrNoSort/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ArrNoSort.dir/build.make src/CMakeFiles/ArrNoSort.dir/build
+.PHONY : ArrNoSort/fast
+
+#=============================================================================
+# Target rules for targets named BinarySort
+
+# Build rule for target.
+BinarySort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BinarySort
+.PHONY : BinarySort
+
+# fast build rule for target.
+BinarySort/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySort.dir/build.make src/CMakeFiles/BinarySort.dir/build
+.PHONY : BinarySort/fast
+
+#=============================================================================
+# Target rules for targets named CountSort
+
+# Build rule for target.
+CountSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CountSort
+.PHONY : CountSort
+
+# fast build rule for target.
+CountSort/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/CountSort.dir/build.make src/CMakeFiles/CountSort.dir/build
+.PHONY : CountSort/fast
+
+#=============================================================================
+# Target rules for targets named RadixSort
+
+# Build rule for target.
+RadixSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RadixSort
+.PHONY : RadixSort
+
+# fast build rule for target.
+RadixSort/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/RadixSort.dir/build.make src/CMakeFiles/RadixSort.dir/build
+.PHONY : RadixSort/fast
+
+#=============================================================================
+# Target rules for targets named Struct1
+
+# Build rule for target.
+Struct1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Struct1
+.PHONY : Struct1
+
+# fast build rule for target.
+Struct1/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Struct1.dir/build.make src/CMakeFiles/Struct1.dir/build
+.PHONY : Struct1/fast
+
+#=============================================================================
+# Target rules for targets named Strore
+
+# Build rule for target.
+Strore: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Strore
+.PHONY : Strore
+
+# fast build rule for target.
+Strore/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Strore.dir/build.make src/CMakeFiles/Strore.dir/build
+.PHONY : Strore/fast
+
+#=============================================================================
+# Target rules for targets named StroreU
+
+# Build rule for target.
+StroreU: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StroreU
+.PHONY : StroreU
+
+# fast build rule for target.
+StroreU/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/StroreU.dir/build.make src/CMakeFiles/StroreU.dir/build
+.PHONY : StroreU/fast
+
+#=============================================================================
+# Target rules for targets named MatrixSparse
+
+# Build rule for target.
+MatrixSparse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MatrixSparse
+.PHONY : MatrixSparse
+
+# fast build rule for target.
+MatrixSparse/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatrixSparse.dir/build.make src/CMakeFiles/MatrixSparse.dir/build
+.PHONY : MatrixSparse/fast
+
+#=============================================================================
+# Target rules for targets named DynamicArr
+
+# Build rule for target.
+DynamicArr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DynamicArr
+.PHONY : DynamicArr
+
+# fast build rule for target.
+DynamicArr/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/DynamicArr.dir/build.make src/CMakeFiles/DynamicArr.dir/build
+.PHONY : DynamicArr/fast
+
+#=============================================================================
+# Target rules for targets named FindMaxMinInArr
+
+# Build rule for target.
+FindMaxMinInArr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FindMaxMinInArr
+.PHONY : FindMaxMinInArr
+
+# fast build rule for target.
+FindMaxMinInArr/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FindMaxMinInArr.dir/build.make src/CMakeFiles/FindMaxMinInArr.dir/build
+.PHONY : FindMaxMinInArr/fast
+
+#=============================================================================
+# Target rules for targets named BinarySortRe
+
+# Build rule for target.
+BinarySortRe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BinarySortRe
+.PHONY : BinarySortRe
+
+# fast build rule for target.
+BinarySortRe/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySortRe.dir/build.make src/CMakeFiles/BinarySortRe.dir/build
+.PHONY : BinarySortRe/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -228,12 +397,25 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Arr"
+	@echo "... ArrNoSort"
+	@echo "... BinarySort"
+	@echo "... BinarySortRe"
+	@echo "... CountSort"
+	@echo "... DynamicArr"
 	@echo "... EnumExample"
+	@echo "... FindMaxMinInArr"
 	@echo "... HammingWeight"
 	@echo "... Heart"
+	@echo "... MatrixSparse"
+	@echo "... Pointer1"
 	@echo "... Pointers"
+	@echo "... RadixSort"
 	@echo "... Regions"
 	@echo "... RevInt"
+	@echo "... Strore"
+	@echo "... StroreU"
+	@echo "... Struct1"
 	@echo "... ZeroOne"
 	@echo "... ZigZag"
 .PHONY : help

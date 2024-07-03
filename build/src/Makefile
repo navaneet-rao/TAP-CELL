@@ -228,6 +228,356 @@ Pointers/fast:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/build
 .PHONY : Pointers/fast
 
+# Convenience name for target.
+src/CMakeFiles/Pointer1.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Pointer1.dir/rule
+.PHONY : src/CMakeFiles/Pointer1.dir/rule
+
+# Convenience name for target.
+Pointer1: src/CMakeFiles/Pointer1.dir/rule
+.PHONY : Pointer1
+
+# fast build rule for target.
+Pointer1/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointer1.dir/build.make src/CMakeFiles/Pointer1.dir/build
+.PHONY : Pointer1/fast
+
+# Convenience name for target.
+src/CMakeFiles/Arr.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Arr.dir/rule
+.PHONY : src/CMakeFiles/Arr.dir/rule
+
+# Convenience name for target.
+Arr: src/CMakeFiles/Arr.dir/rule
+.PHONY : Arr
+
+# fast build rule for target.
+Arr/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Arr.dir/build.make src/CMakeFiles/Arr.dir/build
+.PHONY : Arr/fast
+
+# Convenience name for target.
+src/CMakeFiles/ArrNoSort.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ArrNoSort.dir/rule
+.PHONY : src/CMakeFiles/ArrNoSort.dir/rule
+
+# Convenience name for target.
+ArrNoSort: src/CMakeFiles/ArrNoSort.dir/rule
+.PHONY : ArrNoSort
+
+# fast build rule for target.
+ArrNoSort/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ArrNoSort.dir/build.make src/CMakeFiles/ArrNoSort.dir/build
+.PHONY : ArrNoSort/fast
+
+# Convenience name for target.
+src/CMakeFiles/BinarySort.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/BinarySort.dir/rule
+.PHONY : src/CMakeFiles/BinarySort.dir/rule
+
+# Convenience name for target.
+BinarySort: src/CMakeFiles/BinarySort.dir/rule
+.PHONY : BinarySort
+
+# fast build rule for target.
+BinarySort/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySort.dir/build.make src/CMakeFiles/BinarySort.dir/build
+.PHONY : BinarySort/fast
+
+# Convenience name for target.
+src/CMakeFiles/CountSort.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/CountSort.dir/rule
+.PHONY : src/CMakeFiles/CountSort.dir/rule
+
+# Convenience name for target.
+CountSort: src/CMakeFiles/CountSort.dir/rule
+.PHONY : CountSort
+
+# fast build rule for target.
+CountSort/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CountSort.dir/build.make src/CMakeFiles/CountSort.dir/build
+.PHONY : CountSort/fast
+
+# Convenience name for target.
+src/CMakeFiles/RadixSort.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/RadixSort.dir/rule
+.PHONY : src/CMakeFiles/RadixSort.dir/rule
+
+# Convenience name for target.
+RadixSort: src/CMakeFiles/RadixSort.dir/rule
+.PHONY : RadixSort
+
+# fast build rule for target.
+RadixSort/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RadixSort.dir/build.make src/CMakeFiles/RadixSort.dir/build
+.PHONY : RadixSort/fast
+
+# Convenience name for target.
+src/CMakeFiles/Struct1.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Struct1.dir/rule
+.PHONY : src/CMakeFiles/Struct1.dir/rule
+
+# Convenience name for target.
+Struct1: src/CMakeFiles/Struct1.dir/rule
+.PHONY : Struct1
+
+# fast build rule for target.
+Struct1/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Struct1.dir/build.make src/CMakeFiles/Struct1.dir/build
+.PHONY : Struct1/fast
+
+# Convenience name for target.
+src/CMakeFiles/Strore.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Strore.dir/rule
+.PHONY : src/CMakeFiles/Strore.dir/rule
+
+# Convenience name for target.
+Strore: src/CMakeFiles/Strore.dir/rule
+.PHONY : Strore
+
+# fast build rule for target.
+Strore/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Strore.dir/build.make src/CMakeFiles/Strore.dir/build
+.PHONY : Strore/fast
+
+# Convenience name for target.
+src/CMakeFiles/StroreU.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/StroreU.dir/rule
+.PHONY : src/CMakeFiles/StroreU.dir/rule
+
+# Convenience name for target.
+StroreU: src/CMakeFiles/StroreU.dir/rule
+.PHONY : StroreU
+
+# fast build rule for target.
+StroreU/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/StroreU.dir/build.make src/CMakeFiles/StroreU.dir/build
+.PHONY : StroreU/fast
+
+# Convenience name for target.
+src/CMakeFiles/MatrixSparse.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/MatrixSparse.dir/rule
+.PHONY : src/CMakeFiles/MatrixSparse.dir/rule
+
+# Convenience name for target.
+MatrixSparse: src/CMakeFiles/MatrixSparse.dir/rule
+.PHONY : MatrixSparse
+
+# fast build rule for target.
+MatrixSparse/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatrixSparse.dir/build.make src/CMakeFiles/MatrixSparse.dir/build
+.PHONY : MatrixSparse/fast
+
+# Convenience name for target.
+src/CMakeFiles/DynamicArr.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/DynamicArr.dir/rule
+.PHONY : src/CMakeFiles/DynamicArr.dir/rule
+
+# Convenience name for target.
+DynamicArr: src/CMakeFiles/DynamicArr.dir/rule
+.PHONY : DynamicArr
+
+# fast build rule for target.
+DynamicArr/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/DynamicArr.dir/build.make src/CMakeFiles/DynamicArr.dir/build
+.PHONY : DynamicArr/fast
+
+# Convenience name for target.
+src/CMakeFiles/FindMaxMinInArr.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/FindMaxMinInArr.dir/rule
+.PHONY : src/CMakeFiles/FindMaxMinInArr.dir/rule
+
+# Convenience name for target.
+FindMaxMinInArr: src/CMakeFiles/FindMaxMinInArr.dir/rule
+.PHONY : FindMaxMinInArr
+
+# fast build rule for target.
+FindMaxMinInArr/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FindMaxMinInArr.dir/build.make src/CMakeFiles/FindMaxMinInArr.dir/build
+.PHONY : FindMaxMinInArr/fast
+
+# Convenience name for target.
+src/CMakeFiles/BinarySortRe.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/BinarySortRe.dir/rule
+.PHONY : src/CMakeFiles/BinarySortRe.dir/rule
+
+# Convenience name for target.
+BinarySortRe: src/CMakeFiles/BinarySortRe.dir/rule
+.PHONY : BinarySortRe
+
+# fast build rule for target.
+BinarySortRe/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySortRe.dir/build.make src/CMakeFiles/BinarySortRe.dir/build
+.PHONY : BinarySortRe/fast
+
+Arr.o: Arr.c.o
+.PHONY : Arr.o
+
+# target to build an object file
+Arr.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Arr.dir/build.make src/CMakeFiles/Arr.dir/Arr.c.o
+.PHONY : Arr.c.o
+
+Arr.i: Arr.c.i
+.PHONY : Arr.i
+
+# target to preprocess a source file
+Arr.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Arr.dir/build.make src/CMakeFiles/Arr.dir/Arr.c.i
+.PHONY : Arr.c.i
+
+Arr.s: Arr.c.s
+.PHONY : Arr.s
+
+# target to generate assembly for a file
+Arr.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Arr.dir/build.make src/CMakeFiles/Arr.dir/Arr.c.s
+.PHONY : Arr.c.s
+
+ArrNoSort.o: ArrNoSort.c.o
+.PHONY : ArrNoSort.o
+
+# target to build an object file
+ArrNoSort.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ArrNoSort.dir/build.make src/CMakeFiles/ArrNoSort.dir/ArrNoSort.c.o
+.PHONY : ArrNoSort.c.o
+
+ArrNoSort.i: ArrNoSort.c.i
+.PHONY : ArrNoSort.i
+
+# target to preprocess a source file
+ArrNoSort.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ArrNoSort.dir/build.make src/CMakeFiles/ArrNoSort.dir/ArrNoSort.c.i
+.PHONY : ArrNoSort.c.i
+
+ArrNoSort.s: ArrNoSort.c.s
+.PHONY : ArrNoSort.s
+
+# target to generate assembly for a file
+ArrNoSort.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ArrNoSort.dir/build.make src/CMakeFiles/ArrNoSort.dir/ArrNoSort.c.s
+.PHONY : ArrNoSort.c.s
+
+BinarySort.o: BinarySort.c.o
+.PHONY : BinarySort.o
+
+# target to build an object file
+BinarySort.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySort.dir/build.make src/CMakeFiles/BinarySort.dir/BinarySort.c.o
+.PHONY : BinarySort.c.o
+
+BinarySort.i: BinarySort.c.i
+.PHONY : BinarySort.i
+
+# target to preprocess a source file
+BinarySort.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySort.dir/build.make src/CMakeFiles/BinarySort.dir/BinarySort.c.i
+.PHONY : BinarySort.c.i
+
+BinarySort.s: BinarySort.c.s
+.PHONY : BinarySort.s
+
+# target to generate assembly for a file
+BinarySort.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySort.dir/build.make src/CMakeFiles/BinarySort.dir/BinarySort.c.s
+.PHONY : BinarySort.c.s
+
+BinarySortRe.o: BinarySortRe.cpp.o
+.PHONY : BinarySortRe.o
+
+# target to build an object file
+BinarySortRe.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySortRe.dir/build.make src/CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.o
+.PHONY : BinarySortRe.cpp.o
+
+BinarySortRe.i: BinarySortRe.cpp.i
+.PHONY : BinarySortRe.i
+
+# target to preprocess a source file
+BinarySortRe.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySortRe.dir/build.make src/CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.i
+.PHONY : BinarySortRe.cpp.i
+
+BinarySortRe.s: BinarySortRe.cpp.s
+.PHONY : BinarySortRe.s
+
+# target to generate assembly for a file
+BinarySortRe.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySortRe.dir/build.make src/CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.s
+.PHONY : BinarySortRe.cpp.s
+
+CountSort.o: CountSort.c.o
+.PHONY : CountSort.o
+
+# target to build an object file
+CountSort.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CountSort.dir/build.make src/CMakeFiles/CountSort.dir/CountSort.c.o
+.PHONY : CountSort.c.o
+
+CountSort.i: CountSort.c.i
+.PHONY : CountSort.i
+
+# target to preprocess a source file
+CountSort.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CountSort.dir/build.make src/CMakeFiles/CountSort.dir/CountSort.c.i
+.PHONY : CountSort.c.i
+
+CountSort.s: CountSort.c.s
+.PHONY : CountSort.s
+
+# target to generate assembly for a file
+CountSort.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CountSort.dir/build.make src/CMakeFiles/CountSort.dir/CountSort.c.s
+.PHONY : CountSort.c.s
+
+DynamicArr.o: DynamicArr.c.o
+.PHONY : DynamicArr.o
+
+# target to build an object file
+DynamicArr.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/DynamicArr.dir/build.make src/CMakeFiles/DynamicArr.dir/DynamicArr.c.o
+.PHONY : DynamicArr.c.o
+
+DynamicArr.i: DynamicArr.c.i
+.PHONY : DynamicArr.i
+
+# target to preprocess a source file
+DynamicArr.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/DynamicArr.dir/build.make src/CMakeFiles/DynamicArr.dir/DynamicArr.c.i
+.PHONY : DynamicArr.c.i
+
+DynamicArr.s: DynamicArr.c.s
+.PHONY : DynamicArr.s
+
+# target to generate assembly for a file
+DynamicArr.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/DynamicArr.dir/build.make src/CMakeFiles/DynamicArr.dir/DynamicArr.c.s
+.PHONY : DynamicArr.c.s
+
+FindMaxMinInArray.o: FindMaxMinInArray.c.o
+.PHONY : FindMaxMinInArray.o
+
+# target to build an object file
+FindMaxMinInArray.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FindMaxMinInArr.dir/build.make src/CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o
+.PHONY : FindMaxMinInArray.c.o
+
+FindMaxMinInArray.i: FindMaxMinInArray.c.i
+.PHONY : FindMaxMinInArray.i
+
+# target to preprocess a source file
+FindMaxMinInArray.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FindMaxMinInArr.dir/build.make src/CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.i
+.PHONY : FindMaxMinInArray.c.i
+
+FindMaxMinInArray.s: FindMaxMinInArray.c.s
+.PHONY : FindMaxMinInArray.s
+
+# target to generate assembly for a file
+FindMaxMinInArray.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FindMaxMinInArr.dir/build.make src/CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.s
+.PHONY : FindMaxMinInArray.c.s
+
 HammingWeight.o: HammingWeight.c.o
 .PHONY : HammingWeight.o
 
@@ -276,6 +626,54 @@ Heart.c.s:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Heart.dir/build.make src/CMakeFiles/Heart.dir/Heart.c.s
 .PHONY : Heart.c.s
 
+MatrixSparse.o: MatrixSparse.c.o
+.PHONY : MatrixSparse.o
+
+# target to build an object file
+MatrixSparse.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatrixSparse.dir/build.make src/CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o
+.PHONY : MatrixSparse.c.o
+
+MatrixSparse.i: MatrixSparse.c.i
+.PHONY : MatrixSparse.i
+
+# target to preprocess a source file
+MatrixSparse.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatrixSparse.dir/build.make src/CMakeFiles/MatrixSparse.dir/MatrixSparse.c.i
+.PHONY : MatrixSparse.c.i
+
+MatrixSparse.s: MatrixSparse.c.s
+.PHONY : MatrixSparse.s
+
+# target to generate assembly for a file
+MatrixSparse.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatrixSparse.dir/build.make src/CMakeFiles/MatrixSparse.dir/MatrixSparse.c.s
+.PHONY : MatrixSparse.c.s
+
+Pointer1.o: Pointer1.c.o
+.PHONY : Pointer1.o
+
+# target to build an object file
+Pointer1.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointer1.dir/build.make src/CMakeFiles/Pointer1.dir/Pointer1.c.o
+.PHONY : Pointer1.c.o
+
+Pointer1.i: Pointer1.c.i
+.PHONY : Pointer1.i
+
+# target to preprocess a source file
+Pointer1.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointer1.dir/build.make src/CMakeFiles/Pointer1.dir/Pointer1.c.i
+.PHONY : Pointer1.c.i
+
+Pointer1.s: Pointer1.c.s
+.PHONY : Pointer1.s
+
+# target to generate assembly for a file
+Pointer1.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointer1.dir/build.make src/CMakeFiles/Pointer1.dir/Pointer1.c.s
+.PHONY : Pointer1.c.s
+
 Pointers.o: Pointers.c.o
 .PHONY : Pointers.o
 
@@ -299,6 +697,30 @@ Pointers.s: Pointers.c.s
 Pointers.c.s:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/Pointers.c.s
 .PHONY : Pointers.c.s
+
+RadixSort.o: RadixSort.c.o
+.PHONY : RadixSort.o
+
+# target to build an object file
+RadixSort.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RadixSort.dir/build.make src/CMakeFiles/RadixSort.dir/RadixSort.c.o
+.PHONY : RadixSort.c.o
+
+RadixSort.i: RadixSort.c.i
+.PHONY : RadixSort.i
+
+# target to preprocess a source file
+RadixSort.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RadixSort.dir/build.make src/CMakeFiles/RadixSort.dir/RadixSort.c.i
+.PHONY : RadixSort.c.i
+
+RadixSort.s: RadixSort.c.s
+.PHONY : RadixSort.s
+
+# target to generate assembly for a file
+RadixSort.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RadixSort.dir/build.make src/CMakeFiles/RadixSort.dir/RadixSort.c.s
+.PHONY : RadixSort.c.s
 
 Regions.o: Regions.c.o
 .PHONY : Regions.o
@@ -347,6 +769,30 @@ RevInt.s: RevInt.c.s
 RevInt.c.s:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RevInt.dir/build.make src/CMakeFiles/RevInt.dir/RevInt.c.s
 .PHONY : RevInt.c.s
+
+Struct1.o: Struct1.c.o
+.PHONY : Struct1.o
+
+# target to build an object file
+Struct1.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Struct1.dir/build.make src/CMakeFiles/Struct1.dir/Struct1.c.o
+.PHONY : Struct1.c.o
+
+Struct1.i: Struct1.c.i
+.PHONY : Struct1.i
+
+# target to preprocess a source file
+Struct1.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Struct1.dir/build.make src/CMakeFiles/Struct1.dir/Struct1.c.i
+.PHONY : Struct1.c.i
+
+Struct1.s: Struct1.c.s
+.PHONY : Struct1.s
+
+# target to generate assembly for a file
+Struct1.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Struct1.dir/build.make src/CMakeFiles/Struct1.dir/Struct1.c.s
+.PHONY : Struct1.c.s
 
 ZeroOne.o: ZeroOne.c.o
 .PHONY : ZeroOne.o
@@ -420,6 +866,54 @@ enumExample.c.s:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/EnumExample.dir/build.make src/CMakeFiles/EnumExample.dir/enumExample.c.s
 .PHONY : enumExample.c.s
 
+store.o: store.c.o
+.PHONY : store.o
+
+# target to build an object file
+store.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Strore.dir/build.make src/CMakeFiles/Strore.dir/store.c.o
+.PHONY : store.c.o
+
+store.i: store.c.i
+.PHONY : store.i
+
+# target to preprocess a source file
+store.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Strore.dir/build.make src/CMakeFiles/Strore.dir/store.c.i
+.PHONY : store.c.i
+
+store.s: store.c.s
+.PHONY : store.s
+
+# target to generate assembly for a file
+store.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Strore.dir/build.make src/CMakeFiles/Strore.dir/store.c.s
+.PHONY : store.c.s
+
+storeU.o: storeU.c.o
+.PHONY : storeU.o
+
+# target to build an object file
+storeU.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/StroreU.dir/build.make src/CMakeFiles/StroreU.dir/storeU.c.o
+.PHONY : storeU.c.o
+
+storeU.i: storeU.c.i
+.PHONY : storeU.i
+
+# target to preprocess a source file
+storeU.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/StroreU.dir/build.make src/CMakeFiles/StroreU.dir/storeU.c.i
+.PHONY : storeU.c.i
+
+storeU.s: storeU.c.s
+.PHONY : storeU.s
+
+# target to generate assembly for a file
+storeU.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/StroreU.dir/build.make src/CMakeFiles/StroreU.dir/storeU.c.s
+.PHONY : storeU.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -428,29 +922,75 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Arr"
+	@echo "... ArrNoSort"
+	@echo "... BinarySort"
+	@echo "... BinarySortRe"
+	@echo "... CountSort"
+	@echo "... DynamicArr"
 	@echo "... EnumExample"
+	@echo "... FindMaxMinInArr"
 	@echo "... HammingWeight"
 	@echo "... Heart"
+	@echo "... MatrixSparse"
+	@echo "... Pointer1"
 	@echo "... Pointers"
+	@echo "... RadixSort"
 	@echo "... Regions"
 	@echo "... RevInt"
+	@echo "... Strore"
+	@echo "... StroreU"
+	@echo "... Struct1"
 	@echo "... ZeroOne"
 	@echo "... ZigZag"
+	@echo "... Arr.o"
+	@echo "... Arr.i"
+	@echo "... Arr.s"
+	@echo "... ArrNoSort.o"
+	@echo "... ArrNoSort.i"
+	@echo "... ArrNoSort.s"
+	@echo "... BinarySort.o"
+	@echo "... BinarySort.i"
+	@echo "... BinarySort.s"
+	@echo "... BinarySortRe.o"
+	@echo "... BinarySortRe.i"
+	@echo "... BinarySortRe.s"
+	@echo "... CountSort.o"
+	@echo "... CountSort.i"
+	@echo "... CountSort.s"
+	@echo "... DynamicArr.o"
+	@echo "... DynamicArr.i"
+	@echo "... DynamicArr.s"
+	@echo "... FindMaxMinInArray.o"
+	@echo "... FindMaxMinInArray.i"
+	@echo "... FindMaxMinInArray.s"
 	@echo "... HammingWeight.o"
 	@echo "... HammingWeight.i"
 	@echo "... HammingWeight.s"
 	@echo "... Heart.o"
 	@echo "... Heart.i"
 	@echo "... Heart.s"
+	@echo "... MatrixSparse.o"
+	@echo "... MatrixSparse.i"
+	@echo "... MatrixSparse.s"
+	@echo "... Pointer1.o"
+	@echo "... Pointer1.i"
+	@echo "... Pointer1.s"
 	@echo "... Pointers.o"
 	@echo "... Pointers.i"
 	@echo "... Pointers.s"
+	@echo "... RadixSort.o"
+	@echo "... RadixSort.i"
+	@echo "... RadixSort.s"
 	@echo "... Regions.o"
 	@echo "... Regions.i"
 	@echo "... Regions.s"
 	@echo "... RevInt.o"
 	@echo "... RevInt.i"
 	@echo "... RevInt.s"
+	@echo "... Struct1.o"
+	@echo "... Struct1.i"
+	@echo "... Struct1.s"
 	@echo "... ZeroOne.o"
 	@echo "... ZeroOne.i"
 	@echo "... ZeroOne.s"
@@ -460,6 +1000,12 @@ help:
 	@echo "... enumExample.o"
 	@echo "... enumExample.i"
 	@echo "... enumExample.s"
+	@echo "... store.o"
+	@echo "... store.i"
+	@echo "... store.s"
+	@echo "... storeU.o"
+	@echo "... storeU.i"
+	@echo "... storeU.s"
 .PHONY : help
 
 

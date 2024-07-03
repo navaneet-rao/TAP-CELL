@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall CMakeFiles/RadixSort.dir/RadixSort.c.o -o RadixSort 
