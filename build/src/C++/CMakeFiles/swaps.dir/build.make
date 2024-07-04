@@ -73,15 +73,15 @@ src/C++/CMakeFiles/swaps.dir/swaps.cpp.o: src/C++/CMakeFiles/swaps.dir/flags.mak
 src/C++/CMakeFiles/swaps.dir/swaps.cpp.o: ../src/C++/swaps.cpp
 src/C++/CMakeFiles/swaps.dir/swaps.cpp.o: src/C++/CMakeFiles/swaps.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/C++/CMakeFiles/swaps.dir/swaps.cpp.o"
-	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/C++/CMakeFiles/swaps.dir/swaps.cpp.o -MF CMakeFiles/swaps.dir/swaps.cpp.o.d -o CMakeFiles/swaps.dir/swaps.cpp.o -c /home/luke/PlacementTraning/src/C++/swaps.cpp
+	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/C++/CMakeFiles/swaps.dir/swaps.cpp.o -MF CMakeFiles/swaps.dir/swaps.cpp.o.d -o CMakeFiles/swaps.dir/swaps.cpp.o -c /home/luke/PlacementTraning/src/C++/swaps.cpp
 
 src/C++/CMakeFiles/swaps.dir/swaps.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swaps.dir/swaps.cpp.i"
-	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luke/PlacementTraning/src/C++/swaps.cpp > CMakeFiles/swaps.dir/swaps.cpp.i
+	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luke/PlacementTraning/src/C++/swaps.cpp > CMakeFiles/swaps.dir/swaps.cpp.i
 
 src/C++/CMakeFiles/swaps.dir/swaps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swaps.dir/swaps.cpp.s"
-	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luke/PlacementTraning/src/C++/swaps.cpp -o CMakeFiles/swaps.dir/swaps.cpp.s
+	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luke/PlacementTraning/src/C++/swaps.cpp -o CMakeFiles/swaps.dir/swaps.cpp.s
 
 # Object files for target swaps
 swaps_OBJECTS = \

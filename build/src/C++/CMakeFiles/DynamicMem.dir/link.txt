@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall CMakeFiles/DynamicMem.dir/DynamicMem.cpp.o -o DynamicMem 

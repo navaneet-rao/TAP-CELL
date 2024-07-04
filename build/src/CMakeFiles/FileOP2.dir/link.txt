@@ -1,1 +1,0 @@
-/usr/bin/gcc -Wall -g CMakeFiles/FileOP2.dir/FileOP2.c.o -o FileOP2 

@@ -73,15 +73,15 @@ src/C++/CMakeFiles/textcpp.dir/test.cpp.o: src/C++/CMakeFiles/textcpp.dir/flags.
 src/C++/CMakeFiles/textcpp.dir/test.cpp.o: ../src/C++/test.cpp
 src/C++/CMakeFiles/textcpp.dir/test.cpp.o: src/C++/CMakeFiles/textcpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/C++/CMakeFiles/textcpp.dir/test.cpp.o"
-	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/C++/CMakeFiles/textcpp.dir/test.cpp.o -MF CMakeFiles/textcpp.dir/test.cpp.o.d -o CMakeFiles/textcpp.dir/test.cpp.o -c /home/luke/PlacementTraning/src/C++/test.cpp
+	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/C++/CMakeFiles/textcpp.dir/test.cpp.o -MF CMakeFiles/textcpp.dir/test.cpp.o.d -o CMakeFiles/textcpp.dir/test.cpp.o -c /home/luke/PlacementTraning/src/C++/test.cpp
 
 src/C++/CMakeFiles/textcpp.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/textcpp.dir/test.cpp.i"
-	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luke/PlacementTraning/src/C++/test.cpp > CMakeFiles/textcpp.dir/test.cpp.i
+	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luke/PlacementTraning/src/C++/test.cpp > CMakeFiles/textcpp.dir/test.cpp.i
 
 src/C++/CMakeFiles/textcpp.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/textcpp.dir/test.cpp.s"
-	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luke/PlacementTraning/src/C++/test.cpp -o CMakeFiles/textcpp.dir/test.cpp.s
+	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luke/PlacementTraning/src/C++/test.cpp -o CMakeFiles/textcpp.dir/test.cpp.s
 
 # Object files for target textcpp
 textcpp_OBJECTS = \

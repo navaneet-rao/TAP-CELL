@@ -1,1 +1,0 @@
-/usr/bin/gcc -Wall -g CMakeFiles/ZigZag.dir/ZigZag.c.o -o ZigZag 

@@ -1,5 +1,7 @@
 #include <algorithm>
+#include <cstdlib>
 #include <iostream>
+#include <string>
 
 #ifndef COMMONCPP_H
 #define COMMONcpp_H

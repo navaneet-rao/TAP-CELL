@@ -73,15 +73,15 @@ src/C++/CMakeFiles/ForEach.dir/ForEach.cpp.o: src/C++/CMakeFiles/ForEach.dir/fla
 src/C++/CMakeFiles/ForEach.dir/ForEach.cpp.o: ../src/C++/ForEach.cpp
 src/C++/CMakeFiles/ForEach.dir/ForEach.cpp.o: src/C++/CMakeFiles/ForEach.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/C++/CMakeFiles/ForEach.dir/ForEach.cpp.o"
-	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/C++/CMakeFiles/ForEach.dir/ForEach.cpp.o -MF CMakeFiles/ForEach.dir/ForEach.cpp.o.d -o CMakeFiles/ForEach.dir/ForEach.cpp.o -c /home/luke/PlacementTraning/src/C++/ForEach.cpp
+	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/C++/CMakeFiles/ForEach.dir/ForEach.cpp.o -MF CMakeFiles/ForEach.dir/ForEach.cpp.o.d -o CMakeFiles/ForEach.dir/ForEach.cpp.o -c /home/luke/PlacementTraning/src/C++/ForEach.cpp
 
 src/C++/CMakeFiles/ForEach.dir/ForEach.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ForEach.dir/ForEach.cpp.i"
-	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luke/PlacementTraning/src/C++/ForEach.cpp > CMakeFiles/ForEach.dir/ForEach.cpp.i
+	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luke/PlacementTraning/src/C++/ForEach.cpp > CMakeFiles/ForEach.dir/ForEach.cpp.i
 
 src/C++/CMakeFiles/ForEach.dir/ForEach.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ForEach.dir/ForEach.cpp.s"
-	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luke/PlacementTraning/src/C++/ForEach.cpp -o CMakeFiles/ForEach.dir/ForEach.cpp.s
+	cd /home/luke/PlacementTraning/build/src/C++ && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luke/PlacementTraning/src/C++/ForEach.cpp -o CMakeFiles/ForEach.dir/ForEach.cpp.s
 
 # Object files for target ForEach
 ForEach_OBJECTS = \

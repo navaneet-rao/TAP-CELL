@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.o -o BinarySortRe 

@@ -1,1 +1,0 @@
-/usr/bin/gcc -Wall -g CMakeFiles/FileOP1.dir/FileOP1.c.o -o FileOP1 

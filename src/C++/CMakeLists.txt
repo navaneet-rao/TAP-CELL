@@ -1,4 +1,3 @@
-
 # Set sources in the src directory
 file(GLOB SOURCES "*.cpp")
 file(GLOB SOURCES "*.c")
@@ -6,3 +5,12 @@ file(GLOB SOURCES "*.c")
 add_executable(textcpp test.cpp)
 add_executable(ForEach ForEach.cpp)
 add_executable(swaps swaps.cpp)
+add_executable(Hexample exampleH.cpp)
+add_executable(Overloading Overloading.cpp)
+add_executable(Overloading2 Overloading2.cpp)
+add_executable(InHerr InHerr.cpp)
+add_executable(InfosysQ infosysQ.cpp)
+add_executable(ExH ExecptionH.cpp)
+add_executable(FriendFunc FriendFunc.cpp)
+add_executable(FriendFunc2 FriendFunc2.cpp)
+add_executable(DynamicMem DynamicMem.cpp)

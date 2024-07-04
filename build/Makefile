@@ -126,7 +126,7 @@ ZigZag: cmake_check_build_system
 
 # fast build rule for target.
 ZigZag/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZigZag.dir/build.make src/CMakeFiles/ZigZag.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/ZigZag.dir/build.make src/C/CMakeFiles/ZigZag.dir/build
 .PHONY : ZigZag/fast
 
 #=============================================================================
@@ -139,7 +139,7 @@ Regions: cmake_check_build_system
 
 # fast build rule for target.
 Regions/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Regions.dir/build.make src/CMakeFiles/Regions.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Regions.dir/build.make src/C/CMakeFiles/Regions.dir/build
 .PHONY : Regions/fast
 
 #=============================================================================
@@ -152,7 +152,7 @@ EnumExample: cmake_check_build_system
 
 # fast build rule for target.
 EnumExample/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/EnumExample.dir/build.make src/CMakeFiles/EnumExample.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/EnumExample.dir/build.make src/C/CMakeFiles/EnumExample.dir/build
 .PHONY : EnumExample/fast
 
 #=============================================================================
@@ -165,7 +165,7 @@ ZeroOne: cmake_check_build_system
 
 # fast build rule for target.
 ZeroOne/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZeroOne.dir/build.make src/CMakeFiles/ZeroOne.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/ZeroOne.dir/build.make src/C/CMakeFiles/ZeroOne.dir/build
 .PHONY : ZeroOne/fast
 
 #=============================================================================
@@ -178,7 +178,7 @@ Heart: cmake_check_build_system
 
 # fast build rule for target.
 Heart/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Heart.dir/build.make src/CMakeFiles/Heart.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Heart.dir/build.make src/C/CMakeFiles/Heart.dir/build
 .PHONY : Heart/fast
 
 #=============================================================================
@@ -191,7 +191,7 @@ HammingWeight: cmake_check_build_system
 
 # fast build rule for target.
 HammingWeight/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/HammingWeight.dir/build.make src/CMakeFiles/HammingWeight.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/HammingWeight.dir/build.make src/C/CMakeFiles/HammingWeight.dir/build
 .PHONY : HammingWeight/fast
 
 #=============================================================================
@@ -204,7 +204,7 @@ RevInt: cmake_check_build_system
 
 # fast build rule for target.
 RevInt/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/RevInt.dir/build.make src/CMakeFiles/RevInt.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/RevInt.dir/build.make src/C/CMakeFiles/RevInt.dir/build
 .PHONY : RevInt/fast
 
 #=============================================================================
@@ -217,7 +217,7 @@ Pointers: cmake_check_build_system
 
 # fast build rule for target.
 Pointers/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Pointers.dir/build.make src/C/CMakeFiles/Pointers.dir/build
 .PHONY : Pointers/fast
 
 #=============================================================================
@@ -230,7 +230,7 @@ Pointer1: cmake_check_build_system
 
 # fast build rule for target.
 Pointer1/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointer1.dir/build.make src/CMakeFiles/Pointer1.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Pointer1.dir/build.make src/C/CMakeFiles/Pointer1.dir/build
 .PHONY : Pointer1/fast
 
 #=============================================================================
@@ -243,7 +243,7 @@ Arr: cmake_check_build_system
 
 # fast build rule for target.
 Arr/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Arr.dir/build.make src/CMakeFiles/Arr.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Arr.dir/build.make src/C/CMakeFiles/Arr.dir/build
 .PHONY : Arr/fast
 
 #=============================================================================
@@ -256,7 +256,7 @@ ArrNoSort: cmake_check_build_system
 
 # fast build rule for target.
 ArrNoSort/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ArrNoSort.dir/build.make src/CMakeFiles/ArrNoSort.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/ArrNoSort.dir/build.make src/C/CMakeFiles/ArrNoSort.dir/build
 .PHONY : ArrNoSort/fast
 
 #=============================================================================
@@ -269,7 +269,7 @@ BinarySort: cmake_check_build_system
 
 # fast build rule for target.
 BinarySort/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySort.dir/build.make src/CMakeFiles/BinarySort.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/BinarySort.dir/build.make src/C/CMakeFiles/BinarySort.dir/build
 .PHONY : BinarySort/fast
 
 #=============================================================================
@@ -282,7 +282,7 @@ CountSort: cmake_check_build_system
 
 # fast build rule for target.
 CountSort/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/CountSort.dir/build.make src/CMakeFiles/CountSort.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/CountSort.dir/build.make src/C/CMakeFiles/CountSort.dir/build
 .PHONY : CountSort/fast
 
 #=============================================================================
@@ -295,7 +295,7 @@ RadixSort: cmake_check_build_system
 
 # fast build rule for target.
 RadixSort/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/RadixSort.dir/build.make src/CMakeFiles/RadixSort.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/RadixSort.dir/build.make src/C/CMakeFiles/RadixSort.dir/build
 .PHONY : RadixSort/fast
 
 #=============================================================================
@@ -308,7 +308,7 @@ Struct1: cmake_check_build_system
 
 # fast build rule for target.
 Struct1/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Struct1.dir/build.make src/CMakeFiles/Struct1.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Struct1.dir/build.make src/C/CMakeFiles/Struct1.dir/build
 .PHONY : Struct1/fast
 
 #=============================================================================
@@ -321,7 +321,7 @@ Strore: cmake_check_build_system
 
 # fast build rule for target.
 Strore/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Strore.dir/build.make src/CMakeFiles/Strore.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Strore.dir/build.make src/C/CMakeFiles/Strore.dir/build
 .PHONY : Strore/fast
 
 #=============================================================================
@@ -334,7 +334,7 @@ StroreU: cmake_check_build_system
 
 # fast build rule for target.
 StroreU/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/StroreU.dir/build.make src/CMakeFiles/StroreU.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/StroreU.dir/build.make src/C/CMakeFiles/StroreU.dir/build
 .PHONY : StroreU/fast
 
 #=============================================================================
@@ -347,7 +347,7 @@ MatrixSparse: cmake_check_build_system
 
 # fast build rule for target.
 MatrixSparse/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatrixSparse.dir/build.make src/CMakeFiles/MatrixSparse.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/MatrixSparse.dir/build.make src/C/CMakeFiles/MatrixSparse.dir/build
 .PHONY : MatrixSparse/fast
 
 #=============================================================================
@@ -360,7 +360,7 @@ DynamicArr: cmake_check_build_system
 
 # fast build rule for target.
 DynamicArr/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/DynamicArr.dir/build.make src/CMakeFiles/DynamicArr.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/DynamicArr.dir/build.make src/C/CMakeFiles/DynamicArr.dir/build
 .PHONY : DynamicArr/fast
 
 #=============================================================================
@@ -373,7 +373,7 @@ FindMaxMinInArr: cmake_check_build_system
 
 # fast build rule for target.
 FindMaxMinInArr/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FindMaxMinInArr.dir/build.make src/CMakeFiles/FindMaxMinInArr.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/FindMaxMinInArr.dir/build.make src/C/CMakeFiles/FindMaxMinInArr.dir/build
 .PHONY : FindMaxMinInArr/fast
 
 #=============================================================================
@@ -386,7 +386,7 @@ FileOP1: cmake_check_build_system
 
 # fast build rule for target.
 FileOP1/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP1.dir/build.make src/CMakeFiles/FileOP1.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/FileOP1.dir/build.make src/C/CMakeFiles/FileOP1.dir/build
 .PHONY : FileOP1/fast
 
 #=============================================================================
@@ -399,7 +399,7 @@ FileOP2: cmake_check_build_system
 
 # fast build rule for target.
 FileOP2/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP2.dir/build.make src/CMakeFiles/FileOP2.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/FileOP2.dir/build.make src/C/CMakeFiles/FileOP2.dir/build
 .PHONY : FileOP2/fast
 
 #=============================================================================
@@ -412,7 +412,7 @@ BinarySortRe: cmake_check_build_system
 
 # fast build rule for target.
 BinarySortRe/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySortRe.dir/build.make src/CMakeFiles/BinarySortRe.dir/build
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/BinarySortRe.dir/build.make src/C/CMakeFiles/BinarySortRe.dir/build
 .PHONY : BinarySortRe/fast
 
 #=============================================================================
@@ -454,6 +454,123 @@ swaps/fast:
 	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/swaps.dir/build.make src/C++/CMakeFiles/swaps.dir/build
 .PHONY : swaps/fast
 
+#=============================================================================
+# Target rules for targets named Hexample
+
+# Build rule for target.
+Hexample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hexample
+.PHONY : Hexample
+
+# fast build rule for target.
+Hexample/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Hexample.dir/build.make src/C++/CMakeFiles/Hexample.dir/build
+.PHONY : Hexample/fast
+
+#=============================================================================
+# Target rules for targets named Overloading
+
+# Build rule for target.
+Overloading: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Overloading
+.PHONY : Overloading
+
+# fast build rule for target.
+Overloading/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading.dir/build.make src/C++/CMakeFiles/Overloading.dir/build
+.PHONY : Overloading/fast
+
+#=============================================================================
+# Target rules for targets named Overloading2
+
+# Build rule for target.
+Overloading2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Overloading2
+.PHONY : Overloading2
+
+# fast build rule for target.
+Overloading2/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading2.dir/build.make src/C++/CMakeFiles/Overloading2.dir/build
+.PHONY : Overloading2/fast
+
+#=============================================================================
+# Target rules for targets named InHerr
+
+# Build rule for target.
+InHerr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InHerr
+.PHONY : InHerr
+
+# fast build rule for target.
+InHerr/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InHerr.dir/build.make src/C++/CMakeFiles/InHerr.dir/build
+.PHONY : InHerr/fast
+
+#=============================================================================
+# Target rules for targets named InfosysQ
+
+# Build rule for target.
+InfosysQ: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InfosysQ
+.PHONY : InfosysQ
+
+# fast build rule for target.
+InfosysQ/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InfosysQ.dir/build.make src/C++/CMakeFiles/InfosysQ.dir/build
+.PHONY : InfosysQ/fast
+
+#=============================================================================
+# Target rules for targets named ExH
+
+# Build rule for target.
+ExH: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExH
+.PHONY : ExH
+
+# fast build rule for target.
+ExH/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/ExH.dir/build.make src/C++/CMakeFiles/ExH.dir/build
+.PHONY : ExH/fast
+
+#=============================================================================
+# Target rules for targets named FriendFunc
+
+# Build rule for target.
+FriendFunc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FriendFunc
+.PHONY : FriendFunc
+
+# fast build rule for target.
+FriendFunc/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc.dir/build.make src/C++/CMakeFiles/FriendFunc.dir/build
+.PHONY : FriendFunc/fast
+
+#=============================================================================
+# Target rules for targets named FriendFunc2
+
+# Build rule for target.
+FriendFunc2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FriendFunc2
+.PHONY : FriendFunc2
+
+# fast build rule for target.
+FriendFunc2/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc2.dir/build.make src/C++/CMakeFiles/FriendFunc2.dir/build
+.PHONY : FriendFunc2/fast
+
+#=============================================================================
+# Target rules for targets named DynamicMem
+
+# Build rule for target.
+DynamicMem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DynamicMem
+.PHONY : DynamicMem
+
+# fast build rule for target.
+DynamicMem/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/DynamicMem.dir/build.make src/C++/CMakeFiles/DynamicMem.dir/build
+.PHONY : DynamicMem/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -468,14 +585,23 @@ help:
 	@echo "... BinarySortRe"
 	@echo "... CountSort"
 	@echo "... DynamicArr"
+	@echo "... DynamicMem"
 	@echo "... EnumExample"
+	@echo "... ExH"
 	@echo "... FileOP1"
 	@echo "... FileOP2"
 	@echo "... FindMaxMinInArr"
 	@echo "... ForEach"
+	@echo "... FriendFunc"
+	@echo "... FriendFunc2"
 	@echo "... HammingWeight"
 	@echo "... Heart"
+	@echo "... Hexample"
+	@echo "... InHerr"
+	@echo "... InfosysQ"
 	@echo "... MatrixSparse"
+	@echo "... Overloading"
+	@echo "... Overloading2"
 	@echo "... Pointer1"
 	@echo "... Pointers"
 	@echo "... RadixSort"

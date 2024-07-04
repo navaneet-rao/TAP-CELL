@@ -1,1 +1,0 @@
-/usr/bin/gcc -Wall -g CMakeFiles/CountSort.dir/CountSort.c.o -o CountSort 

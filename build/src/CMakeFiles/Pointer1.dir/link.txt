@@ -1,1 +1,0 @@
-/usr/bin/gcc -Wall -g CMakeFiles/Pointer1.dir/Pointer1.c.o -o Pointer1 

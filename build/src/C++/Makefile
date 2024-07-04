@@ -158,6 +158,180 @@ swaps/fast:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/swaps.dir/build.make src/C++/CMakeFiles/swaps.dir/build
 .PHONY : swaps/fast
 
+# Convenience name for target.
+src/C++/CMakeFiles/Hexample.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/Hexample.dir/rule
+.PHONY : src/C++/CMakeFiles/Hexample.dir/rule
+
+# Convenience name for target.
+Hexample: src/C++/CMakeFiles/Hexample.dir/rule
+.PHONY : Hexample
+
+# fast build rule for target.
+Hexample/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Hexample.dir/build.make src/C++/CMakeFiles/Hexample.dir/build
+.PHONY : Hexample/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/Overloading.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/Overloading.dir/rule
+.PHONY : src/C++/CMakeFiles/Overloading.dir/rule
+
+# Convenience name for target.
+Overloading: src/C++/CMakeFiles/Overloading.dir/rule
+.PHONY : Overloading
+
+# fast build rule for target.
+Overloading/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading.dir/build.make src/C++/CMakeFiles/Overloading.dir/build
+.PHONY : Overloading/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/Overloading2.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/Overloading2.dir/rule
+.PHONY : src/C++/CMakeFiles/Overloading2.dir/rule
+
+# Convenience name for target.
+Overloading2: src/C++/CMakeFiles/Overloading2.dir/rule
+.PHONY : Overloading2
+
+# fast build rule for target.
+Overloading2/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading2.dir/build.make src/C++/CMakeFiles/Overloading2.dir/build
+.PHONY : Overloading2/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/InHerr.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/InHerr.dir/rule
+.PHONY : src/C++/CMakeFiles/InHerr.dir/rule
+
+# Convenience name for target.
+InHerr: src/C++/CMakeFiles/InHerr.dir/rule
+.PHONY : InHerr
+
+# fast build rule for target.
+InHerr/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InHerr.dir/build.make src/C++/CMakeFiles/InHerr.dir/build
+.PHONY : InHerr/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/InfosysQ.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/InfosysQ.dir/rule
+.PHONY : src/C++/CMakeFiles/InfosysQ.dir/rule
+
+# Convenience name for target.
+InfosysQ: src/C++/CMakeFiles/InfosysQ.dir/rule
+.PHONY : InfosysQ
+
+# fast build rule for target.
+InfosysQ/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InfosysQ.dir/build.make src/C++/CMakeFiles/InfosysQ.dir/build
+.PHONY : InfosysQ/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/ExH.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/ExH.dir/rule
+.PHONY : src/C++/CMakeFiles/ExH.dir/rule
+
+# Convenience name for target.
+ExH: src/C++/CMakeFiles/ExH.dir/rule
+.PHONY : ExH
+
+# fast build rule for target.
+ExH/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/ExH.dir/build.make src/C++/CMakeFiles/ExH.dir/build
+.PHONY : ExH/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/FriendFunc.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/FriendFunc.dir/rule
+.PHONY : src/C++/CMakeFiles/FriendFunc.dir/rule
+
+# Convenience name for target.
+FriendFunc: src/C++/CMakeFiles/FriendFunc.dir/rule
+.PHONY : FriendFunc
+
+# fast build rule for target.
+FriendFunc/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc.dir/build.make src/C++/CMakeFiles/FriendFunc.dir/build
+.PHONY : FriendFunc/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/FriendFunc2.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/FriendFunc2.dir/rule
+.PHONY : src/C++/CMakeFiles/FriendFunc2.dir/rule
+
+# Convenience name for target.
+FriendFunc2: src/C++/CMakeFiles/FriendFunc2.dir/rule
+.PHONY : FriendFunc2
+
+# fast build rule for target.
+FriendFunc2/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc2.dir/build.make src/C++/CMakeFiles/FriendFunc2.dir/build
+.PHONY : FriendFunc2/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/DynamicMem.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/DynamicMem.dir/rule
+.PHONY : src/C++/CMakeFiles/DynamicMem.dir/rule
+
+# Convenience name for target.
+DynamicMem: src/C++/CMakeFiles/DynamicMem.dir/rule
+.PHONY : DynamicMem
+
+# fast build rule for target.
+DynamicMem/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/DynamicMem.dir/build.make src/C++/CMakeFiles/DynamicMem.dir/build
+.PHONY : DynamicMem/fast
+
+DynamicMem.o: DynamicMem.cpp.o
+.PHONY : DynamicMem.o
+
+# target to build an object file
+DynamicMem.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/DynamicMem.dir/build.make src/C++/CMakeFiles/DynamicMem.dir/DynamicMem.cpp.o
+.PHONY : DynamicMem.cpp.o
+
+DynamicMem.i: DynamicMem.cpp.i
+.PHONY : DynamicMem.i
+
+# target to preprocess a source file
+DynamicMem.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/DynamicMem.dir/build.make src/C++/CMakeFiles/DynamicMem.dir/DynamicMem.cpp.i
+.PHONY : DynamicMem.cpp.i
+
+DynamicMem.s: DynamicMem.cpp.s
+.PHONY : DynamicMem.s
+
+# target to generate assembly for a file
+DynamicMem.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/DynamicMem.dir/build.make src/C++/CMakeFiles/DynamicMem.dir/DynamicMem.cpp.s
+.PHONY : DynamicMem.cpp.s
+
+ExecptionH.o: ExecptionH.cpp.o
+.PHONY : ExecptionH.o
+
+# target to build an object file
+ExecptionH.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/ExH.dir/build.make src/C++/CMakeFiles/ExH.dir/ExecptionH.cpp.o
+.PHONY : ExecptionH.cpp.o
+
+ExecptionH.i: ExecptionH.cpp.i
+.PHONY : ExecptionH.i
+
+# target to preprocess a source file
+ExecptionH.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/ExH.dir/build.make src/C++/CMakeFiles/ExH.dir/ExecptionH.cpp.i
+.PHONY : ExecptionH.cpp.i
+
+ExecptionH.s: ExecptionH.cpp.s
+.PHONY : ExecptionH.s
+
+# target to generate assembly for a file
+ExecptionH.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/ExH.dir/build.make src/C++/CMakeFiles/ExH.dir/ExecptionH.cpp.s
+.PHONY : ExecptionH.cpp.s
+
 ForEach.o: ForEach.cpp.o
 .PHONY : ForEach.o
 
@@ -181,6 +355,174 @@ ForEach.s: ForEach.cpp.s
 ForEach.cpp.s:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/ForEach.dir/build.make src/C++/CMakeFiles/ForEach.dir/ForEach.cpp.s
 .PHONY : ForEach.cpp.s
+
+FriendFunc.o: FriendFunc.cpp.o
+.PHONY : FriendFunc.o
+
+# target to build an object file
+FriendFunc.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc.dir/build.make src/C++/CMakeFiles/FriendFunc.dir/FriendFunc.cpp.o
+.PHONY : FriendFunc.cpp.o
+
+FriendFunc.i: FriendFunc.cpp.i
+.PHONY : FriendFunc.i
+
+# target to preprocess a source file
+FriendFunc.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc.dir/build.make src/C++/CMakeFiles/FriendFunc.dir/FriendFunc.cpp.i
+.PHONY : FriendFunc.cpp.i
+
+FriendFunc.s: FriendFunc.cpp.s
+.PHONY : FriendFunc.s
+
+# target to generate assembly for a file
+FriendFunc.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc.dir/build.make src/C++/CMakeFiles/FriendFunc.dir/FriendFunc.cpp.s
+.PHONY : FriendFunc.cpp.s
+
+FriendFunc2.o: FriendFunc2.cpp.o
+.PHONY : FriendFunc2.o
+
+# target to build an object file
+FriendFunc2.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc2.dir/build.make src/C++/CMakeFiles/FriendFunc2.dir/FriendFunc2.cpp.o
+.PHONY : FriendFunc2.cpp.o
+
+FriendFunc2.i: FriendFunc2.cpp.i
+.PHONY : FriendFunc2.i
+
+# target to preprocess a source file
+FriendFunc2.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc2.dir/build.make src/C++/CMakeFiles/FriendFunc2.dir/FriendFunc2.cpp.i
+.PHONY : FriendFunc2.cpp.i
+
+FriendFunc2.s: FriendFunc2.cpp.s
+.PHONY : FriendFunc2.s
+
+# target to generate assembly for a file
+FriendFunc2.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc2.dir/build.make src/C++/CMakeFiles/FriendFunc2.dir/FriendFunc2.cpp.s
+.PHONY : FriendFunc2.cpp.s
+
+InHerr.o: InHerr.cpp.o
+.PHONY : InHerr.o
+
+# target to build an object file
+InHerr.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InHerr.dir/build.make src/C++/CMakeFiles/InHerr.dir/InHerr.cpp.o
+.PHONY : InHerr.cpp.o
+
+InHerr.i: InHerr.cpp.i
+.PHONY : InHerr.i
+
+# target to preprocess a source file
+InHerr.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InHerr.dir/build.make src/C++/CMakeFiles/InHerr.dir/InHerr.cpp.i
+.PHONY : InHerr.cpp.i
+
+InHerr.s: InHerr.cpp.s
+.PHONY : InHerr.s
+
+# target to generate assembly for a file
+InHerr.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InHerr.dir/build.make src/C++/CMakeFiles/InHerr.dir/InHerr.cpp.s
+.PHONY : InHerr.cpp.s
+
+Overloading.o: Overloading.cpp.o
+.PHONY : Overloading.o
+
+# target to build an object file
+Overloading.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading.dir/build.make src/C++/CMakeFiles/Overloading.dir/Overloading.cpp.o
+.PHONY : Overloading.cpp.o
+
+Overloading.i: Overloading.cpp.i
+.PHONY : Overloading.i
+
+# target to preprocess a source file
+Overloading.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading.dir/build.make src/C++/CMakeFiles/Overloading.dir/Overloading.cpp.i
+.PHONY : Overloading.cpp.i
+
+Overloading.s: Overloading.cpp.s
+.PHONY : Overloading.s
+
+# target to generate assembly for a file
+Overloading.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading.dir/build.make src/C++/CMakeFiles/Overloading.dir/Overloading.cpp.s
+.PHONY : Overloading.cpp.s
+
+Overloading2.o: Overloading2.cpp.o
+.PHONY : Overloading2.o
+
+# target to build an object file
+Overloading2.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading2.dir/build.make src/C++/CMakeFiles/Overloading2.dir/Overloading2.cpp.o
+.PHONY : Overloading2.cpp.o
+
+Overloading2.i: Overloading2.cpp.i
+.PHONY : Overloading2.i
+
+# target to preprocess a source file
+Overloading2.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading2.dir/build.make src/C++/CMakeFiles/Overloading2.dir/Overloading2.cpp.i
+.PHONY : Overloading2.cpp.i
+
+Overloading2.s: Overloading2.cpp.s
+.PHONY : Overloading2.s
+
+# target to generate assembly for a file
+Overloading2.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading2.dir/build.make src/C++/CMakeFiles/Overloading2.dir/Overloading2.cpp.s
+.PHONY : Overloading2.cpp.s
+
+exampleH.o: exampleH.cpp.o
+.PHONY : exampleH.o
+
+# target to build an object file
+exampleH.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Hexample.dir/build.make src/C++/CMakeFiles/Hexample.dir/exampleH.cpp.o
+.PHONY : exampleH.cpp.o
+
+exampleH.i: exampleH.cpp.i
+.PHONY : exampleH.i
+
+# target to preprocess a source file
+exampleH.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Hexample.dir/build.make src/C++/CMakeFiles/Hexample.dir/exampleH.cpp.i
+.PHONY : exampleH.cpp.i
+
+exampleH.s: exampleH.cpp.s
+.PHONY : exampleH.s
+
+# target to generate assembly for a file
+exampleH.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Hexample.dir/build.make src/C++/CMakeFiles/Hexample.dir/exampleH.cpp.s
+.PHONY : exampleH.cpp.s
+
+infosysQ.o: infosysQ.cpp.o
+.PHONY : infosysQ.o
+
+# target to build an object file
+infosysQ.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InfosysQ.dir/build.make src/C++/CMakeFiles/InfosysQ.dir/infosysQ.cpp.o
+.PHONY : infosysQ.cpp.o
+
+infosysQ.i: infosysQ.cpp.i
+.PHONY : infosysQ.i
+
+# target to preprocess a source file
+infosysQ.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InfosysQ.dir/build.make src/C++/CMakeFiles/InfosysQ.dir/infosysQ.cpp.i
+.PHONY : infosysQ.cpp.i
+
+infosysQ.s: infosysQ.cpp.s
+.PHONY : infosysQ.s
+
+# target to generate assembly for a file
+infosysQ.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InfosysQ.dir/build.make src/C++/CMakeFiles/InfosysQ.dir/infosysQ.cpp.s
+.PHONY : infosysQ.cpp.s
 
 swaps.o: swaps.cpp.o
 .PHONY : swaps.o
@@ -238,12 +580,48 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... DynamicMem"
+	@echo "... ExH"
 	@echo "... ForEach"
+	@echo "... FriendFunc"
+	@echo "... FriendFunc2"
+	@echo "... Hexample"
+	@echo "... InHerr"
+	@echo "... InfosysQ"
+	@echo "... Overloading"
+	@echo "... Overloading2"
 	@echo "... swaps"
 	@echo "... textcpp"
+	@echo "... DynamicMem.o"
+	@echo "... DynamicMem.i"
+	@echo "... DynamicMem.s"
+	@echo "... ExecptionH.o"
+	@echo "... ExecptionH.i"
+	@echo "... ExecptionH.s"
 	@echo "... ForEach.o"
 	@echo "... ForEach.i"
 	@echo "... ForEach.s"
+	@echo "... FriendFunc.o"
+	@echo "... FriendFunc.i"
+	@echo "... FriendFunc.s"
+	@echo "... FriendFunc2.o"
+	@echo "... FriendFunc2.i"
+	@echo "... FriendFunc2.s"
+	@echo "... InHerr.o"
+	@echo "... InHerr.i"
+	@echo "... InHerr.s"
+	@echo "... Overloading.o"
+	@echo "... Overloading.i"
+	@echo "... Overloading.s"
+	@echo "... Overloading2.o"
+	@echo "... Overloading2.i"
+	@echo "... Overloading2.s"
+	@echo "... exampleH.o"
+	@echo "... exampleH.i"
+	@echo "... exampleH.s"
+	@echo "... infosysQ.o"
+	@echo "... infosysQ.i"
+	@echo "... infosysQ.s"
 	@echo "... swaps.o"
 	@echo "... swaps.i"
 	@echo "... swaps.s"

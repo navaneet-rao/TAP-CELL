@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall CMakeFiles/ExH.dir/ExecptionH.cpp.o -o ExH 

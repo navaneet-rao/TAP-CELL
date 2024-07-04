@@ -1,1 +1,0 @@
-/usr/bin/gcc -Wall -g CMakeFiles/BinarySort.dir/BinarySort.c.o -o BinarySort 

@@ -78,62 +78,78 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/ZigZag.dir/all
-src/all: src/CMakeFiles/Regions.dir/all
-src/all: src/CMakeFiles/EnumExample.dir/all
-src/all: src/CMakeFiles/ZeroOne.dir/all
-src/all: src/CMakeFiles/Heart.dir/all
-src/all: src/CMakeFiles/HammingWeight.dir/all
-src/all: src/CMakeFiles/RevInt.dir/all
-src/all: src/CMakeFiles/Pointers.dir/all
-src/all: src/CMakeFiles/Pointer1.dir/all
-src/all: src/CMakeFiles/Arr.dir/all
-src/all: src/CMakeFiles/ArrNoSort.dir/all
-src/all: src/CMakeFiles/BinarySort.dir/all
-src/all: src/CMakeFiles/CountSort.dir/all
-src/all: src/CMakeFiles/RadixSort.dir/all
-src/all: src/CMakeFiles/Struct1.dir/all
-src/all: src/CMakeFiles/Strore.dir/all
-src/all: src/CMakeFiles/StroreU.dir/all
-src/all: src/CMakeFiles/MatrixSparse.dir/all
-src/all: src/CMakeFiles/DynamicArr.dir/all
-src/all: src/CMakeFiles/FindMaxMinInArr.dir/all
-src/all: src/CMakeFiles/FileOP1.dir/all
-src/all: src/CMakeFiles/FileOP2.dir/all
-src/all: src/CMakeFiles/BinarySortRe.dir/all
+src/all: src/C/all
 src/all: src/C++/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
+src/preinstall: src/C/preinstall
 src/preinstall: src/C++/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/ZigZag.dir/clean
-src/clean: src/CMakeFiles/Regions.dir/clean
-src/clean: src/CMakeFiles/EnumExample.dir/clean
-src/clean: src/CMakeFiles/ZeroOne.dir/clean
-src/clean: src/CMakeFiles/Heart.dir/clean
-src/clean: src/CMakeFiles/HammingWeight.dir/clean
-src/clean: src/CMakeFiles/RevInt.dir/clean
-src/clean: src/CMakeFiles/Pointers.dir/clean
-src/clean: src/CMakeFiles/Pointer1.dir/clean
-src/clean: src/CMakeFiles/Arr.dir/clean
-src/clean: src/CMakeFiles/ArrNoSort.dir/clean
-src/clean: src/CMakeFiles/BinarySort.dir/clean
-src/clean: src/CMakeFiles/CountSort.dir/clean
-src/clean: src/CMakeFiles/RadixSort.dir/clean
-src/clean: src/CMakeFiles/Struct1.dir/clean
-src/clean: src/CMakeFiles/Strore.dir/clean
-src/clean: src/CMakeFiles/StroreU.dir/clean
-src/clean: src/CMakeFiles/MatrixSparse.dir/clean
-src/clean: src/CMakeFiles/DynamicArr.dir/clean
-src/clean: src/CMakeFiles/FindMaxMinInArr.dir/clean
-src/clean: src/CMakeFiles/FileOP1.dir/clean
-src/clean: src/CMakeFiles/FileOP2.dir/clean
-src/clean: src/CMakeFiles/BinarySortRe.dir/clean
+src/clean: src/C/clean
 src/clean: src/C++/clean
 .PHONY : src/clean
+
+#=============================================================================
+# Directory level rules for directory src/C
+
+# Recursive "all" directory target.
+src/C/all: src/C/CMakeFiles/ZigZag.dir/all
+src/C/all: src/C/CMakeFiles/Regions.dir/all
+src/C/all: src/C/CMakeFiles/EnumExample.dir/all
+src/C/all: src/C/CMakeFiles/ZeroOne.dir/all
+src/C/all: src/C/CMakeFiles/Heart.dir/all
+src/C/all: src/C/CMakeFiles/HammingWeight.dir/all
+src/C/all: src/C/CMakeFiles/RevInt.dir/all
+src/C/all: src/C/CMakeFiles/Pointers.dir/all
+src/C/all: src/C/CMakeFiles/Pointer1.dir/all
+src/C/all: src/C/CMakeFiles/Arr.dir/all
+src/C/all: src/C/CMakeFiles/ArrNoSort.dir/all
+src/C/all: src/C/CMakeFiles/BinarySort.dir/all
+src/C/all: src/C/CMakeFiles/CountSort.dir/all
+src/C/all: src/C/CMakeFiles/RadixSort.dir/all
+src/C/all: src/C/CMakeFiles/Struct1.dir/all
+src/C/all: src/C/CMakeFiles/Strore.dir/all
+src/C/all: src/C/CMakeFiles/StroreU.dir/all
+src/C/all: src/C/CMakeFiles/MatrixSparse.dir/all
+src/C/all: src/C/CMakeFiles/DynamicArr.dir/all
+src/C/all: src/C/CMakeFiles/FindMaxMinInArr.dir/all
+src/C/all: src/C/CMakeFiles/FileOP1.dir/all
+src/C/all: src/C/CMakeFiles/FileOP2.dir/all
+src/C/all: src/C/CMakeFiles/BinarySortRe.dir/all
+.PHONY : src/C/all
+
+# Recursive "preinstall" directory target.
+src/C/preinstall:
+.PHONY : src/C/preinstall
+
+# Recursive "clean" directory target.
+src/C/clean: src/C/CMakeFiles/ZigZag.dir/clean
+src/C/clean: src/C/CMakeFiles/Regions.dir/clean
+src/C/clean: src/C/CMakeFiles/EnumExample.dir/clean
+src/C/clean: src/C/CMakeFiles/ZeroOne.dir/clean
+src/C/clean: src/C/CMakeFiles/Heart.dir/clean
+src/C/clean: src/C/CMakeFiles/HammingWeight.dir/clean
+src/C/clean: src/C/CMakeFiles/RevInt.dir/clean
+src/C/clean: src/C/CMakeFiles/Pointers.dir/clean
+src/C/clean: src/C/CMakeFiles/Pointer1.dir/clean
+src/C/clean: src/C/CMakeFiles/Arr.dir/clean
+src/C/clean: src/C/CMakeFiles/ArrNoSort.dir/clean
+src/C/clean: src/C/CMakeFiles/BinarySort.dir/clean
+src/C/clean: src/C/CMakeFiles/CountSort.dir/clean
+src/C/clean: src/C/CMakeFiles/RadixSort.dir/clean
+src/C/clean: src/C/CMakeFiles/Struct1.dir/clean
+src/C/clean: src/C/CMakeFiles/Strore.dir/clean
+src/C/clean: src/C/CMakeFiles/StroreU.dir/clean
+src/C/clean: src/C/CMakeFiles/MatrixSparse.dir/clean
+src/C/clean: src/C/CMakeFiles/DynamicArr.dir/clean
+src/C/clean: src/C/CMakeFiles/FindMaxMinInArr.dir/clean
+src/C/clean: src/C/CMakeFiles/FileOP1.dir/clean
+src/C/clean: src/C/CMakeFiles/FileOP2.dir/clean
+src/C/clean: src/C/CMakeFiles/BinarySortRe.dir/clean
+.PHONY : src/C/clean
 
 #=============================================================================
 # Directory level rules for directory src/C++
@@ -142,6 +158,15 @@ src/clean: src/C++/clean
 src/C++/all: src/C++/CMakeFiles/textcpp.dir/all
 src/C++/all: src/C++/CMakeFiles/ForEach.dir/all
 src/C++/all: src/C++/CMakeFiles/swaps.dir/all
+src/C++/all: src/C++/CMakeFiles/Hexample.dir/all
+src/C++/all: src/C++/CMakeFiles/Overloading.dir/all
+src/C++/all: src/C++/CMakeFiles/Overloading2.dir/all
+src/C++/all: src/C++/CMakeFiles/InHerr.dir/all
+src/C++/all: src/C++/CMakeFiles/InfosysQ.dir/all
+src/C++/all: src/C++/CMakeFiles/ExH.dir/all
+src/C++/all: src/C++/CMakeFiles/FriendFunc.dir/all
+src/C++/all: src/C++/CMakeFiles/FriendFunc2.dir/all
+src/C++/all: src/C++/CMakeFiles/DynamicMem.dir/all
 .PHONY : src/C++/all
 
 # Recursive "preinstall" directory target.
@@ -152,605 +177,614 @@ src/C++/preinstall:
 src/C++/clean: src/C++/CMakeFiles/textcpp.dir/clean
 src/C++/clean: src/C++/CMakeFiles/ForEach.dir/clean
 src/C++/clean: src/C++/CMakeFiles/swaps.dir/clean
+src/C++/clean: src/C++/CMakeFiles/Hexample.dir/clean
+src/C++/clean: src/C++/CMakeFiles/Overloading.dir/clean
+src/C++/clean: src/C++/CMakeFiles/Overloading2.dir/clean
+src/C++/clean: src/C++/CMakeFiles/InHerr.dir/clean
+src/C++/clean: src/C++/CMakeFiles/InfosysQ.dir/clean
+src/C++/clean: src/C++/CMakeFiles/ExH.dir/clean
+src/C++/clean: src/C++/CMakeFiles/FriendFunc.dir/clean
+src/C++/clean: src/C++/CMakeFiles/FriendFunc2.dir/clean
+src/C++/clean: src/C++/CMakeFiles/DynamicMem.dir/clean
 .PHONY : src/C++/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/ZigZag.dir
+# Target rules for target src/C/CMakeFiles/ZigZag.dir
 
 # All Build rule for target.
-src/CMakeFiles/ZigZag.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZigZag.dir/build.make src/CMakeFiles/ZigZag.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZigZag.dir/build.make src/CMakeFiles/ZigZag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=47,48 "Built target ZigZag"
-.PHONY : src/CMakeFiles/ZigZag.dir/all
+src/C/CMakeFiles/ZigZag.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/ZigZag.dir/build.make src/C/CMakeFiles/ZigZag.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/ZigZag.dir/build.make src/C/CMakeFiles/ZigZag.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=65,66 "Built target ZigZag"
+.PHONY : src/C/CMakeFiles/ZigZag.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/ZigZag.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/ZigZag.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ZigZag.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/ZigZag.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/ZigZag.dir/rule
+.PHONY : src/C/CMakeFiles/ZigZag.dir/rule
 
 # Convenience name for target.
-ZigZag: src/CMakeFiles/ZigZag.dir/rule
+ZigZag: src/C/CMakeFiles/ZigZag.dir/rule
 .PHONY : ZigZag
 
 # clean rule for target.
-src/CMakeFiles/ZigZag.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZigZag.dir/build.make src/CMakeFiles/ZigZag.dir/clean
-.PHONY : src/CMakeFiles/ZigZag.dir/clean
+src/C/CMakeFiles/ZigZag.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/ZigZag.dir/build.make src/C/CMakeFiles/ZigZag.dir/clean
+.PHONY : src/C/CMakeFiles/ZigZag.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/Regions.dir
+# Target rules for target src/C/CMakeFiles/Regions.dir
 
 # All Build rule for target.
-src/CMakeFiles/Regions.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Regions.dir/build.make src/CMakeFiles/Regions.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Regions.dir/build.make src/CMakeFiles/Regions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=35,36 "Built target Regions"
-.PHONY : src/CMakeFiles/Regions.dir/all
+src/C/CMakeFiles/Regions.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Regions.dir/build.make src/C/CMakeFiles/Regions.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Regions.dir/build.make src/C/CMakeFiles/Regions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=53,54 "Built target Regions"
+.PHONY : src/C/CMakeFiles/Regions.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/Regions.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/Regions.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Regions.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/Regions.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/Regions.dir/rule
+.PHONY : src/C/CMakeFiles/Regions.dir/rule
 
 # Convenience name for target.
-Regions: src/CMakeFiles/Regions.dir/rule
+Regions: src/C/CMakeFiles/Regions.dir/rule
 .PHONY : Regions
 
 # clean rule for target.
-src/CMakeFiles/Regions.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Regions.dir/build.make src/CMakeFiles/Regions.dir/clean
-.PHONY : src/CMakeFiles/Regions.dir/clean
+src/C/CMakeFiles/Regions.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Regions.dir/build.make src/C/CMakeFiles/Regions.dir/clean
+.PHONY : src/C/CMakeFiles/Regions.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/EnumExample.dir
+# Target rules for target src/C/CMakeFiles/EnumExample.dir
 
 # All Build rule for target.
-src/CMakeFiles/EnumExample.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/EnumExample.dir/build.make src/CMakeFiles/EnumExample.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/EnumExample.dir/build.make src/CMakeFiles/EnumExample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=13,14 "Built target EnumExample"
-.PHONY : src/CMakeFiles/EnumExample.dir/all
+src/C/CMakeFiles/EnumExample.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/EnumExample.dir/build.make src/C/CMakeFiles/EnumExample.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/EnumExample.dir/build.make src/C/CMakeFiles/EnumExample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=15,16 "Built target EnumExample"
+.PHONY : src/C/CMakeFiles/EnumExample.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/EnumExample.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/EnumExample.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/EnumExample.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/EnumExample.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/EnumExample.dir/rule
+.PHONY : src/C/CMakeFiles/EnumExample.dir/rule
 
 # Convenience name for target.
-EnumExample: src/CMakeFiles/EnumExample.dir/rule
+EnumExample: src/C/CMakeFiles/EnumExample.dir/rule
 .PHONY : EnumExample
 
 # clean rule for target.
-src/CMakeFiles/EnumExample.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/EnumExample.dir/build.make src/CMakeFiles/EnumExample.dir/clean
-.PHONY : src/CMakeFiles/EnumExample.dir/clean
+src/C/CMakeFiles/EnumExample.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/EnumExample.dir/build.make src/C/CMakeFiles/EnumExample.dir/clean
+.PHONY : src/C/CMakeFiles/EnumExample.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/ZeroOne.dir
+# Target rules for target src/C/CMakeFiles/ZeroOne.dir
 
 # All Build rule for target.
-src/CMakeFiles/ZeroOne.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZeroOne.dir/build.make src/CMakeFiles/ZeroOne.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZeroOne.dir/build.make src/CMakeFiles/ZeroOne.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=45,46 "Built target ZeroOne"
-.PHONY : src/CMakeFiles/ZeroOne.dir/all
+src/C/CMakeFiles/ZeroOne.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/ZeroOne.dir/build.make src/C/CMakeFiles/ZeroOne.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/ZeroOne.dir/build.make src/C/CMakeFiles/ZeroOne.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=63,64 "Built target ZeroOne"
+.PHONY : src/C/CMakeFiles/ZeroOne.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/ZeroOne.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/ZeroOne.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ZeroOne.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/ZeroOne.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/ZeroOne.dir/rule
+.PHONY : src/C/CMakeFiles/ZeroOne.dir/rule
 
 # Convenience name for target.
-ZeroOne: src/CMakeFiles/ZeroOne.dir/rule
+ZeroOne: src/C/CMakeFiles/ZeroOne.dir/rule
 .PHONY : ZeroOne
 
 # clean rule for target.
-src/CMakeFiles/ZeroOne.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ZeroOne.dir/build.make src/CMakeFiles/ZeroOne.dir/clean
-.PHONY : src/CMakeFiles/ZeroOne.dir/clean
+src/C/CMakeFiles/ZeroOne.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/ZeroOne.dir/build.make src/C/CMakeFiles/ZeroOne.dir/clean
+.PHONY : src/C/CMakeFiles/ZeroOne.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/Heart.dir
+# Target rules for target src/C/CMakeFiles/Heart.dir
 
 # All Build rule for target.
-src/CMakeFiles/Heart.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Heart.dir/build.make src/CMakeFiles/Heart.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Heart.dir/build.make src/CMakeFiles/Heart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=25,26 "Built target Heart"
-.PHONY : src/CMakeFiles/Heart.dir/all
+src/C/CMakeFiles/Heart.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Heart.dir/build.make src/C/CMakeFiles/Heart.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Heart.dir/build.make src/C/CMakeFiles/Heart.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=33,34 "Built target Heart"
+.PHONY : src/C/CMakeFiles/Heart.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/Heart.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/Heart.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Heart.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/Heart.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/Heart.dir/rule
+.PHONY : src/C/CMakeFiles/Heart.dir/rule
 
 # Convenience name for target.
-Heart: src/CMakeFiles/Heart.dir/rule
+Heart: src/C/CMakeFiles/Heart.dir/rule
 .PHONY : Heart
 
 # clean rule for target.
-src/CMakeFiles/Heart.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Heart.dir/build.make src/CMakeFiles/Heart.dir/clean
-.PHONY : src/CMakeFiles/Heart.dir/clean
+src/C/CMakeFiles/Heart.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Heart.dir/build.make src/C/CMakeFiles/Heart.dir/clean
+.PHONY : src/C/CMakeFiles/Heart.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/HammingWeight.dir
+# Target rules for target src/C/CMakeFiles/HammingWeight.dir
 
 # All Build rule for target.
-src/CMakeFiles/HammingWeight.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/HammingWeight.dir/build.make src/CMakeFiles/HammingWeight.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/HammingWeight.dir/build.make src/CMakeFiles/HammingWeight.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=23,24 "Built target HammingWeight"
-.PHONY : src/CMakeFiles/HammingWeight.dir/all
+src/C/CMakeFiles/HammingWeight.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/HammingWeight.dir/build.make src/C/CMakeFiles/HammingWeight.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/HammingWeight.dir/build.make src/C/CMakeFiles/HammingWeight.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=31,32 "Built target HammingWeight"
+.PHONY : src/C/CMakeFiles/HammingWeight.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/HammingWeight.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/HammingWeight.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/HammingWeight.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/HammingWeight.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/HammingWeight.dir/rule
+.PHONY : src/C/CMakeFiles/HammingWeight.dir/rule
 
 # Convenience name for target.
-HammingWeight: src/CMakeFiles/HammingWeight.dir/rule
+HammingWeight: src/C/CMakeFiles/HammingWeight.dir/rule
 .PHONY : HammingWeight
 
 # clean rule for target.
-src/CMakeFiles/HammingWeight.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/HammingWeight.dir/build.make src/CMakeFiles/HammingWeight.dir/clean
-.PHONY : src/CMakeFiles/HammingWeight.dir/clean
+src/C/CMakeFiles/HammingWeight.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/HammingWeight.dir/build.make src/C/CMakeFiles/HammingWeight.dir/clean
+.PHONY : src/C/CMakeFiles/HammingWeight.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/RevInt.dir
+# Target rules for target src/C/CMakeFiles/RevInt.dir
 
 # All Build rule for target.
-src/CMakeFiles/RevInt.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/RevInt.dir/build.make src/CMakeFiles/RevInt.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/RevInt.dir/build.make src/CMakeFiles/RevInt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=37,38 "Built target RevInt"
-.PHONY : src/CMakeFiles/RevInt.dir/all
+src/C/CMakeFiles/RevInt.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/RevInt.dir/build.make src/C/CMakeFiles/RevInt.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/RevInt.dir/build.make src/C/CMakeFiles/RevInt.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=55,56 "Built target RevInt"
+.PHONY : src/C/CMakeFiles/RevInt.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/RevInt.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/RevInt.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/RevInt.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/RevInt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/RevInt.dir/rule
+.PHONY : src/C/CMakeFiles/RevInt.dir/rule
 
 # Convenience name for target.
-RevInt: src/CMakeFiles/RevInt.dir/rule
+RevInt: src/C/CMakeFiles/RevInt.dir/rule
 .PHONY : RevInt
 
 # clean rule for target.
-src/CMakeFiles/RevInt.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/RevInt.dir/build.make src/CMakeFiles/RevInt.dir/clean
-.PHONY : src/CMakeFiles/RevInt.dir/clean
+src/C/CMakeFiles/RevInt.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/RevInt.dir/build.make src/C/CMakeFiles/RevInt.dir/clean
+.PHONY : src/C/CMakeFiles/RevInt.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/Pointers.dir
+# Target rules for target src/C/CMakeFiles/Pointers.dir
 
 # All Build rule for target.
-src/CMakeFiles/Pointers.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=31,32 "Built target Pointers"
-.PHONY : src/CMakeFiles/Pointers.dir/all
+src/C/CMakeFiles/Pointers.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Pointers.dir/build.make src/C/CMakeFiles/Pointers.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Pointers.dir/build.make src/C/CMakeFiles/Pointers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=49,50 "Built target Pointers"
+.PHONY : src/C/CMakeFiles/Pointers.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/Pointers.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/Pointers.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Pointers.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/Pointers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/Pointers.dir/rule
+.PHONY : src/C/CMakeFiles/Pointers.dir/rule
 
 # Convenience name for target.
-Pointers: src/CMakeFiles/Pointers.dir/rule
+Pointers: src/C/CMakeFiles/Pointers.dir/rule
 .PHONY : Pointers
 
 # clean rule for target.
-src/CMakeFiles/Pointers.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointers.dir/build.make src/CMakeFiles/Pointers.dir/clean
-.PHONY : src/CMakeFiles/Pointers.dir/clean
+src/C/CMakeFiles/Pointers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Pointers.dir/build.make src/C/CMakeFiles/Pointers.dir/clean
+.PHONY : src/C/CMakeFiles/Pointers.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/Pointer1.dir
+# Target rules for target src/C/CMakeFiles/Pointer1.dir
 
 # All Build rule for target.
-src/CMakeFiles/Pointer1.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointer1.dir/build.make src/CMakeFiles/Pointer1.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointer1.dir/build.make src/CMakeFiles/Pointer1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=29,30 "Built target Pointer1"
-.PHONY : src/CMakeFiles/Pointer1.dir/all
+src/C/CMakeFiles/Pointer1.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Pointer1.dir/build.make src/C/CMakeFiles/Pointer1.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Pointer1.dir/build.make src/C/CMakeFiles/Pointer1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=47,48 "Built target Pointer1"
+.PHONY : src/C/CMakeFiles/Pointer1.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/Pointer1.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/Pointer1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Pointer1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/Pointer1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/Pointer1.dir/rule
+.PHONY : src/C/CMakeFiles/Pointer1.dir/rule
 
 # Convenience name for target.
-Pointer1: src/CMakeFiles/Pointer1.dir/rule
+Pointer1: src/C/CMakeFiles/Pointer1.dir/rule
 .PHONY : Pointer1
 
 # clean rule for target.
-src/CMakeFiles/Pointer1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Pointer1.dir/build.make src/CMakeFiles/Pointer1.dir/clean
-.PHONY : src/CMakeFiles/Pointer1.dir/clean
+src/C/CMakeFiles/Pointer1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Pointer1.dir/build.make src/C/CMakeFiles/Pointer1.dir/clean
+.PHONY : src/C/CMakeFiles/Pointer1.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/Arr.dir
+# Target rules for target src/C/CMakeFiles/Arr.dir
 
 # All Build rule for target.
-src/CMakeFiles/Arr.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Arr.dir/build.make src/CMakeFiles/Arr.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Arr.dir/build.make src/CMakeFiles/Arr.dir/build
+src/C/CMakeFiles/Arr.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Arr.dir/build.make src/C/CMakeFiles/Arr.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Arr.dir/build.make src/C/CMakeFiles/Arr.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=1,2 "Built target Arr"
-.PHONY : src/CMakeFiles/Arr.dir/all
+.PHONY : src/C/CMakeFiles/Arr.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/Arr.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/Arr.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Arr.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/Arr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/Arr.dir/rule
+.PHONY : src/C/CMakeFiles/Arr.dir/rule
 
 # Convenience name for target.
-Arr: src/CMakeFiles/Arr.dir/rule
+Arr: src/C/CMakeFiles/Arr.dir/rule
 .PHONY : Arr
 
 # clean rule for target.
-src/CMakeFiles/Arr.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Arr.dir/build.make src/CMakeFiles/Arr.dir/clean
-.PHONY : src/CMakeFiles/Arr.dir/clean
+src/C/CMakeFiles/Arr.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Arr.dir/build.make src/C/CMakeFiles/Arr.dir/clean
+.PHONY : src/C/CMakeFiles/Arr.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/ArrNoSort.dir
+# Target rules for target src/C/CMakeFiles/ArrNoSort.dir
 
 # All Build rule for target.
-src/CMakeFiles/ArrNoSort.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ArrNoSort.dir/build.make src/CMakeFiles/ArrNoSort.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ArrNoSort.dir/build.make src/CMakeFiles/ArrNoSort.dir/build
+src/C/CMakeFiles/ArrNoSort.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/ArrNoSort.dir/build.make src/C/CMakeFiles/ArrNoSort.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/ArrNoSort.dir/build.make src/C/CMakeFiles/ArrNoSort.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=3,4 "Built target ArrNoSort"
-.PHONY : src/CMakeFiles/ArrNoSort.dir/all
+.PHONY : src/C/CMakeFiles/ArrNoSort.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/ArrNoSort.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/ArrNoSort.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ArrNoSort.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/ArrNoSort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/ArrNoSort.dir/rule
+.PHONY : src/C/CMakeFiles/ArrNoSort.dir/rule
 
 # Convenience name for target.
-ArrNoSort: src/CMakeFiles/ArrNoSort.dir/rule
+ArrNoSort: src/C/CMakeFiles/ArrNoSort.dir/rule
 .PHONY : ArrNoSort
 
 # clean rule for target.
-src/CMakeFiles/ArrNoSort.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ArrNoSort.dir/build.make src/CMakeFiles/ArrNoSort.dir/clean
-.PHONY : src/CMakeFiles/ArrNoSort.dir/clean
+src/C/CMakeFiles/ArrNoSort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/ArrNoSort.dir/build.make src/C/CMakeFiles/ArrNoSort.dir/clean
+.PHONY : src/C/CMakeFiles/ArrNoSort.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/BinarySort.dir
+# Target rules for target src/C/CMakeFiles/BinarySort.dir
 
 # All Build rule for target.
-src/CMakeFiles/BinarySort.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySort.dir/build.make src/CMakeFiles/BinarySort.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySort.dir/build.make src/CMakeFiles/BinarySort.dir/build
+src/C/CMakeFiles/BinarySort.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/BinarySort.dir/build.make src/C/CMakeFiles/BinarySort.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/BinarySort.dir/build.make src/C/CMakeFiles/BinarySort.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=5,6 "Built target BinarySort"
-.PHONY : src/CMakeFiles/BinarySort.dir/all
+.PHONY : src/C/CMakeFiles/BinarySort.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/BinarySort.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/BinarySort.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/BinarySort.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/BinarySort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/BinarySort.dir/rule
+.PHONY : src/C/CMakeFiles/BinarySort.dir/rule
 
 # Convenience name for target.
-BinarySort: src/CMakeFiles/BinarySort.dir/rule
+BinarySort: src/C/CMakeFiles/BinarySort.dir/rule
 .PHONY : BinarySort
 
 # clean rule for target.
-src/CMakeFiles/BinarySort.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySort.dir/build.make src/CMakeFiles/BinarySort.dir/clean
-.PHONY : src/CMakeFiles/BinarySort.dir/clean
+src/C/CMakeFiles/BinarySort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/BinarySort.dir/build.make src/C/CMakeFiles/BinarySort.dir/clean
+.PHONY : src/C/CMakeFiles/BinarySort.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/CountSort.dir
+# Target rules for target src/C/CMakeFiles/CountSort.dir
 
 # All Build rule for target.
-src/CMakeFiles/CountSort.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/CountSort.dir/build.make src/CMakeFiles/CountSort.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/CountSort.dir/build.make src/CMakeFiles/CountSort.dir/build
+src/C/CMakeFiles/CountSort.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/CountSort.dir/build.make src/C/CMakeFiles/CountSort.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/CountSort.dir/build.make src/C/CMakeFiles/CountSort.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=9,10 "Built target CountSort"
-.PHONY : src/CMakeFiles/CountSort.dir/all
+.PHONY : src/C/CMakeFiles/CountSort.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/CountSort.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/CountSort.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/CountSort.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/CountSort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/CountSort.dir/rule
+.PHONY : src/C/CMakeFiles/CountSort.dir/rule
 
 # Convenience name for target.
-CountSort: src/CMakeFiles/CountSort.dir/rule
+CountSort: src/C/CMakeFiles/CountSort.dir/rule
 .PHONY : CountSort
 
 # clean rule for target.
-src/CMakeFiles/CountSort.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/CountSort.dir/build.make src/CMakeFiles/CountSort.dir/clean
-.PHONY : src/CMakeFiles/CountSort.dir/clean
+src/C/CMakeFiles/CountSort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/CountSort.dir/build.make src/C/CMakeFiles/CountSort.dir/clean
+.PHONY : src/C/CMakeFiles/CountSort.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/RadixSort.dir
+# Target rules for target src/C/CMakeFiles/RadixSort.dir
 
 # All Build rule for target.
-src/CMakeFiles/RadixSort.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/RadixSort.dir/build.make src/CMakeFiles/RadixSort.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/RadixSort.dir/build.make src/CMakeFiles/RadixSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=33,34 "Built target RadixSort"
-.PHONY : src/CMakeFiles/RadixSort.dir/all
+src/C/CMakeFiles/RadixSort.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/RadixSort.dir/build.make src/C/CMakeFiles/RadixSort.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/RadixSort.dir/build.make src/C/CMakeFiles/RadixSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=51,52 "Built target RadixSort"
+.PHONY : src/C/CMakeFiles/RadixSort.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/RadixSort.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/RadixSort.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/RadixSort.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/RadixSort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/RadixSort.dir/rule
+.PHONY : src/C/CMakeFiles/RadixSort.dir/rule
 
 # Convenience name for target.
-RadixSort: src/CMakeFiles/RadixSort.dir/rule
+RadixSort: src/C/CMakeFiles/RadixSort.dir/rule
 .PHONY : RadixSort
 
 # clean rule for target.
-src/CMakeFiles/RadixSort.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/RadixSort.dir/build.make src/CMakeFiles/RadixSort.dir/clean
-.PHONY : src/CMakeFiles/RadixSort.dir/clean
+src/C/CMakeFiles/RadixSort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/RadixSort.dir/build.make src/C/CMakeFiles/RadixSort.dir/clean
+.PHONY : src/C/CMakeFiles/RadixSort.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/Struct1.dir
+# Target rules for target src/C/CMakeFiles/Struct1.dir
 
 # All Build rule for target.
-src/CMakeFiles/Struct1.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Struct1.dir/build.make src/CMakeFiles/Struct1.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Struct1.dir/build.make src/CMakeFiles/Struct1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=43,44 "Built target Struct1"
-.PHONY : src/CMakeFiles/Struct1.dir/all
+src/C/CMakeFiles/Struct1.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Struct1.dir/build.make src/C/CMakeFiles/Struct1.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Struct1.dir/build.make src/C/CMakeFiles/Struct1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=61,62 "Built target Struct1"
+.PHONY : src/C/CMakeFiles/Struct1.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/Struct1.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/Struct1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Struct1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/Struct1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/Struct1.dir/rule
+.PHONY : src/C/CMakeFiles/Struct1.dir/rule
 
 # Convenience name for target.
-Struct1: src/CMakeFiles/Struct1.dir/rule
+Struct1: src/C/CMakeFiles/Struct1.dir/rule
 .PHONY : Struct1
 
 # clean rule for target.
-src/CMakeFiles/Struct1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Struct1.dir/build.make src/CMakeFiles/Struct1.dir/clean
-.PHONY : src/CMakeFiles/Struct1.dir/clean
+src/C/CMakeFiles/Struct1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Struct1.dir/build.make src/C/CMakeFiles/Struct1.dir/clean
+.PHONY : src/C/CMakeFiles/Struct1.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/Strore.dir
+# Target rules for target src/C/CMakeFiles/Strore.dir
 
 # All Build rule for target.
-src/CMakeFiles/Strore.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Strore.dir/build.make src/CMakeFiles/Strore.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Strore.dir/build.make src/CMakeFiles/Strore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=39,40 "Built target Strore"
-.PHONY : src/CMakeFiles/Strore.dir/all
+src/C/CMakeFiles/Strore.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Strore.dir/build.make src/C/CMakeFiles/Strore.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Strore.dir/build.make src/C/CMakeFiles/Strore.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=57,58 "Built target Strore"
+.PHONY : src/C/CMakeFiles/Strore.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/Strore.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/Strore.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Strore.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/Strore.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/Strore.dir/rule
+.PHONY : src/C/CMakeFiles/Strore.dir/rule
 
 # Convenience name for target.
-Strore: src/CMakeFiles/Strore.dir/rule
+Strore: src/C/CMakeFiles/Strore.dir/rule
 .PHONY : Strore
 
 # clean rule for target.
-src/CMakeFiles/Strore.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Strore.dir/build.make src/CMakeFiles/Strore.dir/clean
-.PHONY : src/CMakeFiles/Strore.dir/clean
+src/C/CMakeFiles/Strore.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/Strore.dir/build.make src/C/CMakeFiles/Strore.dir/clean
+.PHONY : src/C/CMakeFiles/Strore.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/StroreU.dir
+# Target rules for target src/C/CMakeFiles/StroreU.dir
 
 # All Build rule for target.
-src/CMakeFiles/StroreU.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/StroreU.dir/build.make src/CMakeFiles/StroreU.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/StroreU.dir/build.make src/CMakeFiles/StroreU.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=41,42 "Built target StroreU"
-.PHONY : src/CMakeFiles/StroreU.dir/all
+src/C/CMakeFiles/StroreU.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/StroreU.dir/build.make src/C/CMakeFiles/StroreU.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/StroreU.dir/build.make src/C/CMakeFiles/StroreU.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=59,60 "Built target StroreU"
+.PHONY : src/C/CMakeFiles/StroreU.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/StroreU.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/StroreU.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/StroreU.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/StroreU.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/StroreU.dir/rule
+.PHONY : src/C/CMakeFiles/StroreU.dir/rule
 
 # Convenience name for target.
-StroreU: src/CMakeFiles/StroreU.dir/rule
+StroreU: src/C/CMakeFiles/StroreU.dir/rule
 .PHONY : StroreU
 
 # clean rule for target.
-src/CMakeFiles/StroreU.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/StroreU.dir/build.make src/CMakeFiles/StroreU.dir/clean
-.PHONY : src/CMakeFiles/StroreU.dir/clean
+src/C/CMakeFiles/StroreU.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/StroreU.dir/build.make src/C/CMakeFiles/StroreU.dir/clean
+.PHONY : src/C/CMakeFiles/StroreU.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/MatrixSparse.dir
+# Target rules for target src/C/CMakeFiles/MatrixSparse.dir
 
 # All Build rule for target.
-src/CMakeFiles/MatrixSparse.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatrixSparse.dir/build.make src/CMakeFiles/MatrixSparse.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatrixSparse.dir/build.make src/CMakeFiles/MatrixSparse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=27,28 "Built target MatrixSparse"
-.PHONY : src/CMakeFiles/MatrixSparse.dir/all
+src/C/CMakeFiles/MatrixSparse.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/MatrixSparse.dir/build.make src/C/CMakeFiles/MatrixSparse.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/MatrixSparse.dir/build.make src/C/CMakeFiles/MatrixSparse.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=41,42 "Built target MatrixSparse"
+.PHONY : src/C/CMakeFiles/MatrixSparse.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/MatrixSparse.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/MatrixSparse.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/MatrixSparse.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/MatrixSparse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/MatrixSparse.dir/rule
+.PHONY : src/C/CMakeFiles/MatrixSparse.dir/rule
 
 # Convenience name for target.
-MatrixSparse: src/CMakeFiles/MatrixSparse.dir/rule
+MatrixSparse: src/C/CMakeFiles/MatrixSparse.dir/rule
 .PHONY : MatrixSparse
 
 # clean rule for target.
-src/CMakeFiles/MatrixSparse.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatrixSparse.dir/build.make src/CMakeFiles/MatrixSparse.dir/clean
-.PHONY : src/CMakeFiles/MatrixSparse.dir/clean
+src/C/CMakeFiles/MatrixSparse.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/MatrixSparse.dir/build.make src/C/CMakeFiles/MatrixSparse.dir/clean
+.PHONY : src/C/CMakeFiles/MatrixSparse.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/DynamicArr.dir
+# Target rules for target src/C/CMakeFiles/DynamicArr.dir
 
 # All Build rule for target.
-src/CMakeFiles/DynamicArr.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/DynamicArr.dir/build.make src/CMakeFiles/DynamicArr.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/DynamicArr.dir/build.make src/CMakeFiles/DynamicArr.dir/build
+src/C/CMakeFiles/DynamicArr.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/DynamicArr.dir/build.make src/C/CMakeFiles/DynamicArr.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/DynamicArr.dir/build.make src/C/CMakeFiles/DynamicArr.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=11,12 "Built target DynamicArr"
-.PHONY : src/CMakeFiles/DynamicArr.dir/all
+.PHONY : src/C/CMakeFiles/DynamicArr.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/DynamicArr.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/DynamicArr.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/DynamicArr.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/DynamicArr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/DynamicArr.dir/rule
+.PHONY : src/C/CMakeFiles/DynamicArr.dir/rule
 
 # Convenience name for target.
-DynamicArr: src/CMakeFiles/DynamicArr.dir/rule
+DynamicArr: src/C/CMakeFiles/DynamicArr.dir/rule
 .PHONY : DynamicArr
 
 # clean rule for target.
-src/CMakeFiles/DynamicArr.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/DynamicArr.dir/build.make src/CMakeFiles/DynamicArr.dir/clean
-.PHONY : src/CMakeFiles/DynamicArr.dir/clean
+src/C/CMakeFiles/DynamicArr.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/DynamicArr.dir/build.make src/C/CMakeFiles/DynamicArr.dir/clean
+.PHONY : src/C/CMakeFiles/DynamicArr.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/FindMaxMinInArr.dir
+# Target rules for target src/C/CMakeFiles/FindMaxMinInArr.dir
 
 # All Build rule for target.
-src/CMakeFiles/FindMaxMinInArr.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FindMaxMinInArr.dir/build.make src/CMakeFiles/FindMaxMinInArr.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FindMaxMinInArr.dir/build.make src/CMakeFiles/FindMaxMinInArr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=19,20 "Built target FindMaxMinInArr"
-.PHONY : src/CMakeFiles/FindMaxMinInArr.dir/all
+src/C/CMakeFiles/FindMaxMinInArr.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/FindMaxMinInArr.dir/build.make src/C/CMakeFiles/FindMaxMinInArr.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/FindMaxMinInArr.dir/build.make src/C/CMakeFiles/FindMaxMinInArr.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=23,24 "Built target FindMaxMinInArr"
+.PHONY : src/C/CMakeFiles/FindMaxMinInArr.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/FindMaxMinInArr.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/FindMaxMinInArr.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/FindMaxMinInArr.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/FindMaxMinInArr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/FindMaxMinInArr.dir/rule
+.PHONY : src/C/CMakeFiles/FindMaxMinInArr.dir/rule
 
 # Convenience name for target.
-FindMaxMinInArr: src/CMakeFiles/FindMaxMinInArr.dir/rule
+FindMaxMinInArr: src/C/CMakeFiles/FindMaxMinInArr.dir/rule
 .PHONY : FindMaxMinInArr
 
 # clean rule for target.
-src/CMakeFiles/FindMaxMinInArr.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FindMaxMinInArr.dir/build.make src/CMakeFiles/FindMaxMinInArr.dir/clean
-.PHONY : src/CMakeFiles/FindMaxMinInArr.dir/clean
+src/C/CMakeFiles/FindMaxMinInArr.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/FindMaxMinInArr.dir/build.make src/C/CMakeFiles/FindMaxMinInArr.dir/clean
+.PHONY : src/C/CMakeFiles/FindMaxMinInArr.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/FileOP1.dir
+# Target rules for target src/C/CMakeFiles/FileOP1.dir
 
 # All Build rule for target.
-src/CMakeFiles/FileOP1.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP1.dir/build.make src/CMakeFiles/FileOP1.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP1.dir/build.make src/CMakeFiles/FileOP1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=15,16 "Built target FileOP1"
-.PHONY : src/CMakeFiles/FileOP1.dir/all
+src/C/CMakeFiles/FileOP1.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/FileOP1.dir/build.make src/C/CMakeFiles/FileOP1.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/FileOP1.dir/build.make src/C/CMakeFiles/FileOP1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=19,20 "Built target FileOP1"
+.PHONY : src/C/CMakeFiles/FileOP1.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/FileOP1.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/FileOP1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/FileOP1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/FileOP1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/FileOP1.dir/rule
+.PHONY : src/C/CMakeFiles/FileOP1.dir/rule
 
 # Convenience name for target.
-FileOP1: src/CMakeFiles/FileOP1.dir/rule
+FileOP1: src/C/CMakeFiles/FileOP1.dir/rule
 .PHONY : FileOP1
 
 # clean rule for target.
-src/CMakeFiles/FileOP1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP1.dir/build.make src/CMakeFiles/FileOP1.dir/clean
-.PHONY : src/CMakeFiles/FileOP1.dir/clean
+src/C/CMakeFiles/FileOP1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/FileOP1.dir/build.make src/C/CMakeFiles/FileOP1.dir/clean
+.PHONY : src/C/CMakeFiles/FileOP1.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/FileOP2.dir
+# Target rules for target src/C/CMakeFiles/FileOP2.dir
 
 # All Build rule for target.
-src/CMakeFiles/FileOP2.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP2.dir/build.make src/CMakeFiles/FileOP2.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP2.dir/build.make src/CMakeFiles/FileOP2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=17,18 "Built target FileOP2"
-.PHONY : src/CMakeFiles/FileOP2.dir/all
+src/C/CMakeFiles/FileOP2.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/FileOP2.dir/build.make src/C/CMakeFiles/FileOP2.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/FileOP2.dir/build.make src/C/CMakeFiles/FileOP2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=21,22 "Built target FileOP2"
+.PHONY : src/C/CMakeFiles/FileOP2.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/FileOP2.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/FileOP2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/FileOP2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/FileOP2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/FileOP2.dir/rule
+.PHONY : src/C/CMakeFiles/FileOP2.dir/rule
 
 # Convenience name for target.
-FileOP2: src/CMakeFiles/FileOP2.dir/rule
+FileOP2: src/C/CMakeFiles/FileOP2.dir/rule
 .PHONY : FileOP2
 
 # clean rule for target.
-src/CMakeFiles/FileOP2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP2.dir/build.make src/CMakeFiles/FileOP2.dir/clean
-.PHONY : src/CMakeFiles/FileOP2.dir/clean
+src/C/CMakeFiles/FileOP2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/FileOP2.dir/build.make src/C/CMakeFiles/FileOP2.dir/clean
+.PHONY : src/C/CMakeFiles/FileOP2.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/BinarySortRe.dir
+# Target rules for target src/C/CMakeFiles/BinarySortRe.dir
 
 # All Build rule for target.
-src/CMakeFiles/BinarySortRe.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySortRe.dir/build.make src/CMakeFiles/BinarySortRe.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySortRe.dir/build.make src/CMakeFiles/BinarySortRe.dir/build
+src/C/CMakeFiles/BinarySortRe.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/BinarySortRe.dir/build.make src/C/CMakeFiles/BinarySortRe.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/BinarySortRe.dir/build.make src/C/CMakeFiles/BinarySortRe.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=7,8 "Built target BinarySortRe"
-.PHONY : src/CMakeFiles/BinarySortRe.dir/all
+.PHONY : src/C/CMakeFiles/BinarySortRe.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/BinarySortRe.dir/rule: cmake_check_build_system
+src/C/CMakeFiles/BinarySortRe.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/BinarySortRe.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C/CMakeFiles/BinarySortRe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/BinarySortRe.dir/rule
+.PHONY : src/C/CMakeFiles/BinarySortRe.dir/rule
 
 # Convenience name for target.
-BinarySortRe: src/CMakeFiles/BinarySortRe.dir/rule
+BinarySortRe: src/C/CMakeFiles/BinarySortRe.dir/rule
 .PHONY : BinarySortRe
 
 # clean rule for target.
-src/CMakeFiles/BinarySortRe.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySortRe.dir/build.make src/CMakeFiles/BinarySortRe.dir/clean
-.PHONY : src/CMakeFiles/BinarySortRe.dir/clean
+src/C/CMakeFiles/BinarySortRe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C/CMakeFiles/BinarySortRe.dir/build.make src/C/CMakeFiles/BinarySortRe.dir/clean
+.PHONY : src/C/CMakeFiles/BinarySortRe.dir/clean
 
 #=============================================================================
 # Target rules for target src/C++/CMakeFiles/textcpp.dir
@@ -759,7 +793,7 @@ src/CMakeFiles/BinarySortRe.dir/clean:
 src/C++/CMakeFiles/textcpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/textcpp.dir/build.make src/C++/CMakeFiles/textcpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/textcpp.dir/build.make src/C++/CMakeFiles/textcpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=51,52 "Built target textcpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=69,70 "Built target textcpp"
 .PHONY : src/C++/CMakeFiles/textcpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -785,7 +819,7 @@ src/C++/CMakeFiles/textcpp.dir/clean:
 src/C++/CMakeFiles/ForEach.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/ForEach.dir/build.make src/C++/CMakeFiles/ForEach.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/ForEach.dir/build.make src/C++/CMakeFiles/ForEach.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=21,22 "Built target ForEach"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=25,26 "Built target ForEach"
 .PHONY : src/C++/CMakeFiles/ForEach.dir/all
 
 # Build rule for subdir invocation for target.
@@ -811,7 +845,7 @@ src/C++/CMakeFiles/ForEach.dir/clean:
 src/C++/CMakeFiles/swaps.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/swaps.dir/build.make src/C++/CMakeFiles/swaps.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/swaps.dir/build.make src/C++/CMakeFiles/swaps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=49,50 "Built target swaps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=67,68 "Built target swaps"
 .PHONY : src/C++/CMakeFiles/swaps.dir/all
 
 # Build rule for subdir invocation for target.
@@ -829,6 +863,240 @@ swaps: src/C++/CMakeFiles/swaps.dir/rule
 src/C++/CMakeFiles/swaps.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/swaps.dir/build.make src/C++/CMakeFiles/swaps.dir/clean
 .PHONY : src/C++/CMakeFiles/swaps.dir/clean
+
+#=============================================================================
+# Target rules for target src/C++/CMakeFiles/Hexample.dir
+
+# All Build rule for target.
+src/C++/CMakeFiles/Hexample.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Hexample.dir/build.make src/C++/CMakeFiles/Hexample.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Hexample.dir/build.make src/C++/CMakeFiles/Hexample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=35,36 "Built target Hexample"
+.PHONY : src/C++/CMakeFiles/Hexample.dir/all
+
+# Build rule for subdir invocation for target.
+src/C++/CMakeFiles/Hexample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/Hexample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/C++/CMakeFiles/Hexample.dir/rule
+
+# Convenience name for target.
+Hexample: src/C++/CMakeFiles/Hexample.dir/rule
+.PHONY : Hexample
+
+# clean rule for target.
+src/C++/CMakeFiles/Hexample.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Hexample.dir/build.make src/C++/CMakeFiles/Hexample.dir/clean
+.PHONY : src/C++/CMakeFiles/Hexample.dir/clean
+
+#=============================================================================
+# Target rules for target src/C++/CMakeFiles/Overloading.dir
+
+# All Build rule for target.
+src/C++/CMakeFiles/Overloading.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading.dir/build.make src/C++/CMakeFiles/Overloading.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading.dir/build.make src/C++/CMakeFiles/Overloading.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=43,44 "Built target Overloading"
+.PHONY : src/C++/CMakeFiles/Overloading.dir/all
+
+# Build rule for subdir invocation for target.
+src/C++/CMakeFiles/Overloading.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/Overloading.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/C++/CMakeFiles/Overloading.dir/rule
+
+# Convenience name for target.
+Overloading: src/C++/CMakeFiles/Overloading.dir/rule
+.PHONY : Overloading
+
+# clean rule for target.
+src/C++/CMakeFiles/Overloading.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading.dir/build.make src/C++/CMakeFiles/Overloading.dir/clean
+.PHONY : src/C++/CMakeFiles/Overloading.dir/clean
+
+#=============================================================================
+# Target rules for target src/C++/CMakeFiles/Overloading2.dir
+
+# All Build rule for target.
+src/C++/CMakeFiles/Overloading2.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading2.dir/build.make src/C++/CMakeFiles/Overloading2.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading2.dir/build.make src/C++/CMakeFiles/Overloading2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=45,46 "Built target Overloading2"
+.PHONY : src/C++/CMakeFiles/Overloading2.dir/all
+
+# Build rule for subdir invocation for target.
+src/C++/CMakeFiles/Overloading2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/Overloading2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/C++/CMakeFiles/Overloading2.dir/rule
+
+# Convenience name for target.
+Overloading2: src/C++/CMakeFiles/Overloading2.dir/rule
+.PHONY : Overloading2
+
+# clean rule for target.
+src/C++/CMakeFiles/Overloading2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading2.dir/build.make src/C++/CMakeFiles/Overloading2.dir/clean
+.PHONY : src/C++/CMakeFiles/Overloading2.dir/clean
+
+#=============================================================================
+# Target rules for target src/C++/CMakeFiles/InHerr.dir
+
+# All Build rule for target.
+src/C++/CMakeFiles/InHerr.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InHerr.dir/build.make src/C++/CMakeFiles/InHerr.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InHerr.dir/build.make src/C++/CMakeFiles/InHerr.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=37,38 "Built target InHerr"
+.PHONY : src/C++/CMakeFiles/InHerr.dir/all
+
+# Build rule for subdir invocation for target.
+src/C++/CMakeFiles/InHerr.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/InHerr.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/C++/CMakeFiles/InHerr.dir/rule
+
+# Convenience name for target.
+InHerr: src/C++/CMakeFiles/InHerr.dir/rule
+.PHONY : InHerr
+
+# clean rule for target.
+src/C++/CMakeFiles/InHerr.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InHerr.dir/build.make src/C++/CMakeFiles/InHerr.dir/clean
+.PHONY : src/C++/CMakeFiles/InHerr.dir/clean
+
+#=============================================================================
+# Target rules for target src/C++/CMakeFiles/InfosysQ.dir
+
+# All Build rule for target.
+src/C++/CMakeFiles/InfosysQ.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InfosysQ.dir/build.make src/C++/CMakeFiles/InfosysQ.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InfosysQ.dir/build.make src/C++/CMakeFiles/InfosysQ.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=39,40 "Built target InfosysQ"
+.PHONY : src/C++/CMakeFiles/InfosysQ.dir/all
+
+# Build rule for subdir invocation for target.
+src/C++/CMakeFiles/InfosysQ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/InfosysQ.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/C++/CMakeFiles/InfosysQ.dir/rule
+
+# Convenience name for target.
+InfosysQ: src/C++/CMakeFiles/InfosysQ.dir/rule
+.PHONY : InfosysQ
+
+# clean rule for target.
+src/C++/CMakeFiles/InfosysQ.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InfosysQ.dir/build.make src/C++/CMakeFiles/InfosysQ.dir/clean
+.PHONY : src/C++/CMakeFiles/InfosysQ.dir/clean
+
+#=============================================================================
+# Target rules for target src/C++/CMakeFiles/ExH.dir
+
+# All Build rule for target.
+src/C++/CMakeFiles/ExH.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/ExH.dir/build.make src/C++/CMakeFiles/ExH.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/ExH.dir/build.make src/C++/CMakeFiles/ExH.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=17,18 "Built target ExH"
+.PHONY : src/C++/CMakeFiles/ExH.dir/all
+
+# Build rule for subdir invocation for target.
+src/C++/CMakeFiles/ExH.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/ExH.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/C++/CMakeFiles/ExH.dir/rule
+
+# Convenience name for target.
+ExH: src/C++/CMakeFiles/ExH.dir/rule
+.PHONY : ExH
+
+# clean rule for target.
+src/C++/CMakeFiles/ExH.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/ExH.dir/build.make src/C++/CMakeFiles/ExH.dir/clean
+.PHONY : src/C++/CMakeFiles/ExH.dir/clean
+
+#=============================================================================
+# Target rules for target src/C++/CMakeFiles/FriendFunc.dir
+
+# All Build rule for target.
+src/C++/CMakeFiles/FriendFunc.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc.dir/build.make src/C++/CMakeFiles/FriendFunc.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc.dir/build.make src/C++/CMakeFiles/FriendFunc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=27,28 "Built target FriendFunc"
+.PHONY : src/C++/CMakeFiles/FriendFunc.dir/all
+
+# Build rule for subdir invocation for target.
+src/C++/CMakeFiles/FriendFunc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/FriendFunc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/C++/CMakeFiles/FriendFunc.dir/rule
+
+# Convenience name for target.
+FriendFunc: src/C++/CMakeFiles/FriendFunc.dir/rule
+.PHONY : FriendFunc
+
+# clean rule for target.
+src/C++/CMakeFiles/FriendFunc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc.dir/build.make src/C++/CMakeFiles/FriendFunc.dir/clean
+.PHONY : src/C++/CMakeFiles/FriendFunc.dir/clean
+
+#=============================================================================
+# Target rules for target src/C++/CMakeFiles/FriendFunc2.dir
+
+# All Build rule for target.
+src/C++/CMakeFiles/FriendFunc2.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc2.dir/build.make src/C++/CMakeFiles/FriendFunc2.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc2.dir/build.make src/C++/CMakeFiles/FriendFunc2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=29,30 "Built target FriendFunc2"
+.PHONY : src/C++/CMakeFiles/FriendFunc2.dir/all
+
+# Build rule for subdir invocation for target.
+src/C++/CMakeFiles/FriendFunc2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/FriendFunc2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/C++/CMakeFiles/FriendFunc2.dir/rule
+
+# Convenience name for target.
+FriendFunc2: src/C++/CMakeFiles/FriendFunc2.dir/rule
+.PHONY : FriendFunc2
+
+# clean rule for target.
+src/C++/CMakeFiles/FriendFunc2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FriendFunc2.dir/build.make src/C++/CMakeFiles/FriendFunc2.dir/clean
+.PHONY : src/C++/CMakeFiles/FriendFunc2.dir/clean
+
+#=============================================================================
+# Target rules for target src/C++/CMakeFiles/DynamicMem.dir
+
+# All Build rule for target.
+src/C++/CMakeFiles/DynamicMem.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/DynamicMem.dir/build.make src/C++/CMakeFiles/DynamicMem.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/DynamicMem.dir/build.make src/C++/CMakeFiles/DynamicMem.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=13,14 "Built target DynamicMem"
+.PHONY : src/C++/CMakeFiles/DynamicMem.dir/all
+
+# Build rule for subdir invocation for target.
+src/C++/CMakeFiles/DynamicMem.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/DynamicMem.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luke/PlacementTraning/build/CMakeFiles 0
+.PHONY : src/C++/CMakeFiles/DynamicMem.dir/rule
+
+# Convenience name for target.
+DynamicMem: src/C++/CMakeFiles/DynamicMem.dir/rule
+.PHONY : DynamicMem
+
+# clean rule for target.
+src/C++/CMakeFiles/DynamicMem.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/DynamicMem.dir/build.make src/C++/CMakeFiles/DynamicMem.dir/clean
+.PHONY : src/C++/CMakeFiles/DynamicMem.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
