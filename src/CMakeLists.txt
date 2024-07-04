@@ -23,7 +23,13 @@ add_executable(StroreU storeU.c)
 add_executable(MatrixSparse MatrixSparse.c)
 add_executable(DynamicArr DynamicArr.c)
 add_executable(FindMaxMinInArr FindMaxMinInArray.c)
-
+add_executable(FileOP1 FileOP1.c)
+add_executable(FileOP2 FileOP2.c)
 
 # Add executable from sources for C++
 add_executable(BinarySortRe BinarySortRe.cpp)
+
+# Add subdirectory for source files
+add_subdirectory(C++)
+
+

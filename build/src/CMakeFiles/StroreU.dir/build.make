@@ -73,15 +73,15 @@ src/CMakeFiles/StroreU.dir/storeU.c.o: src/CMakeFiles/StroreU.dir/flags.make
 src/CMakeFiles/StroreU.dir/storeU.c.o: ../src/storeU.c
 src/CMakeFiles/StroreU.dir/storeU.c.o: src/CMakeFiles/StroreU.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/StroreU.dir/storeU.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/StroreU.dir/storeU.c.o -MF CMakeFiles/StroreU.dir/storeU.c.o.d -o CMakeFiles/StroreU.dir/storeU.c.o -c /home/luke/PlacementTraning/src/storeU.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/StroreU.dir/storeU.c.o -MF CMakeFiles/StroreU.dir/storeU.c.o.d -o CMakeFiles/StroreU.dir/storeU.c.o -c /home/luke/PlacementTraning/src/storeU.c
 
 src/CMakeFiles/StroreU.dir/storeU.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/StroreU.dir/storeU.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/storeU.c > CMakeFiles/StroreU.dir/storeU.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/storeU.c > CMakeFiles/StroreU.dir/storeU.c.i
 
 src/CMakeFiles/StroreU.dir/storeU.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/StroreU.dir/storeU.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/storeU.c -o CMakeFiles/StroreU.dir/storeU.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/storeU.c -o CMakeFiles/StroreU.dir/storeU.c.s
 
 # Object files for target StroreU
 StroreU_OBJECTS = \

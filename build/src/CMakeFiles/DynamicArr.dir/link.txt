@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall CMakeFiles/DynamicArr.dir/DynamicArr.c.o -o DynamicArr 
+/usr/bin/gcc -Wall -g CMakeFiles/DynamicArr.dir/DynamicArr.c.o -o DynamicArr 

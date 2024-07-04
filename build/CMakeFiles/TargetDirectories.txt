@@ -20,6 +20,13 @@
 /home/luke/PlacementTraning/build/src/CMakeFiles/MatrixSparse.dir
 /home/luke/PlacementTraning/build/src/CMakeFiles/DynamicArr.dir
 /home/luke/PlacementTraning/build/src/CMakeFiles/FindMaxMinInArr.dir
+/home/luke/PlacementTraning/build/src/CMakeFiles/FileOP1.dir
+/home/luke/PlacementTraning/build/src/CMakeFiles/FileOP2.dir
 /home/luke/PlacementTraning/build/src/CMakeFiles/BinarySortRe.dir
 /home/luke/PlacementTraning/build/src/CMakeFiles/edit_cache.dir
 /home/luke/PlacementTraning/build/src/CMakeFiles/rebuild_cache.dir
+/home/luke/PlacementTraning/build/src/C++/CMakeFiles/textcpp.dir
+/home/luke/PlacementTraning/build/src/C++/CMakeFiles/ForEach.dir
+/home/luke/PlacementTraning/build/src/C++/CMakeFiles/swaps.dir
+/home/luke/PlacementTraning/build/src/C++/CMakeFiles/edit_cache.dir
+/home/luke/PlacementTraning/build/src/C++/CMakeFiles/rebuild_cache.dir

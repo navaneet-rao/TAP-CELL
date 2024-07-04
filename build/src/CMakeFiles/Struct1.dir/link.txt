@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall CMakeFiles/Struct1.dir/Struct1.c.o -o Struct1 
+/usr/bin/gcc -Wall -g CMakeFiles/Struct1.dir/Struct1.c.o -o Struct1 

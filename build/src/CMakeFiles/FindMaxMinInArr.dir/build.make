@@ -73,15 +73,15 @@ src/CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o: src/CMakeFiles/FindMax
 src/CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o: ../src/FindMaxMinInArray.c
 src/CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o: src/CMakeFiles/FindMaxMinInArr.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o -MF CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o.d -o CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o -c /home/luke/PlacementTraning/src/FindMaxMinInArray.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o -MF CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o.d -o CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o -c /home/luke/PlacementTraning/src/FindMaxMinInArray.c
 
 src/CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/FindMaxMinInArray.c > CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/FindMaxMinInArray.c > CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.i
 
 src/CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/FindMaxMinInArray.c -o CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/FindMaxMinInArray.c -o CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.s
 
 # Object files for target FindMaxMinInArr
 FindMaxMinInArr_OBJECTS = \

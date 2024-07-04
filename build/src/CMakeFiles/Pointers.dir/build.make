@@ -73,15 +73,15 @@ src/CMakeFiles/Pointers.dir/Pointers.c.o: src/CMakeFiles/Pointers.dir/flags.make
 src/CMakeFiles/Pointers.dir/Pointers.c.o: ../src/Pointers.c
 src/CMakeFiles/Pointers.dir/Pointers.c.o: src/CMakeFiles/Pointers.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/Pointers.dir/Pointers.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Pointers.dir/Pointers.c.o -MF CMakeFiles/Pointers.dir/Pointers.c.o.d -o CMakeFiles/Pointers.dir/Pointers.c.o -c /home/luke/PlacementTraning/src/Pointers.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Pointers.dir/Pointers.c.o -MF CMakeFiles/Pointers.dir/Pointers.c.o.d -o CMakeFiles/Pointers.dir/Pointers.c.o -c /home/luke/PlacementTraning/src/Pointers.c
 
 src/CMakeFiles/Pointers.dir/Pointers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Pointers.dir/Pointers.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/Pointers.c > CMakeFiles/Pointers.dir/Pointers.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/Pointers.c > CMakeFiles/Pointers.dir/Pointers.c.i
 
 src/CMakeFiles/Pointers.dir/Pointers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Pointers.dir/Pointers.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/Pointers.c -o CMakeFiles/Pointers.dir/Pointers.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/Pointers.c -o CMakeFiles/Pointers.dir/Pointers.c.s
 
 # Object files for target Pointers
 Pointers_OBJECTS = \

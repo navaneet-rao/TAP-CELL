@@ -73,15 +73,15 @@ src/CMakeFiles/EnumExample.dir/enumExample.c.o: src/CMakeFiles/EnumExample.dir/f
 src/CMakeFiles/EnumExample.dir/enumExample.c.o: ../src/enumExample.c
 src/CMakeFiles/EnumExample.dir/enumExample.c.o: src/CMakeFiles/EnumExample.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/EnumExample.dir/enumExample.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/EnumExample.dir/enumExample.c.o -MF CMakeFiles/EnumExample.dir/enumExample.c.o.d -o CMakeFiles/EnumExample.dir/enumExample.c.o -c /home/luke/PlacementTraning/src/enumExample.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/EnumExample.dir/enumExample.c.o -MF CMakeFiles/EnumExample.dir/enumExample.c.o.d -o CMakeFiles/EnumExample.dir/enumExample.c.o -c /home/luke/PlacementTraning/src/enumExample.c
 
 src/CMakeFiles/EnumExample.dir/enumExample.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EnumExample.dir/enumExample.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/enumExample.c > CMakeFiles/EnumExample.dir/enumExample.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/enumExample.c > CMakeFiles/EnumExample.dir/enumExample.c.i
 
 src/CMakeFiles/EnumExample.dir/enumExample.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EnumExample.dir/enumExample.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/enumExample.c -o CMakeFiles/EnumExample.dir/enumExample.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/enumExample.c -o CMakeFiles/EnumExample.dir/enumExample.c.s
 
 # Object files for target EnumExample
 EnumExample_OBJECTS = \

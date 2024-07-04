@@ -1,0 +1,1 @@
+/usr/bin/g++ -Wall -g CMakeFiles/textcpp.dir/test.cpp.o -o textcpp 

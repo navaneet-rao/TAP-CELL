@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall CMakeFiles/ZeroOne.dir/ZeroOne.c.o -o ZeroOne 
+/usr/bin/gcc -Wall -g CMakeFiles/ZeroOne.dir/ZeroOne.c.o -o ZeroOne 

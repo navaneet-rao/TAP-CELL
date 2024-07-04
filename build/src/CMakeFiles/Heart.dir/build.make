@@ -73,15 +73,15 @@ src/CMakeFiles/Heart.dir/Heart.c.o: src/CMakeFiles/Heart.dir/flags.make
 src/CMakeFiles/Heart.dir/Heart.c.o: ../src/Heart.c
 src/CMakeFiles/Heart.dir/Heart.c.o: src/CMakeFiles/Heart.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/Heart.dir/Heart.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Heart.dir/Heart.c.o -MF CMakeFiles/Heart.dir/Heart.c.o.d -o CMakeFiles/Heart.dir/Heart.c.o -c /home/luke/PlacementTraning/src/Heart.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Heart.dir/Heart.c.o -MF CMakeFiles/Heart.dir/Heart.c.o.d -o CMakeFiles/Heart.dir/Heart.c.o -c /home/luke/PlacementTraning/src/Heart.c
 
 src/CMakeFiles/Heart.dir/Heart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Heart.dir/Heart.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/Heart.c > CMakeFiles/Heart.dir/Heart.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/Heart.c > CMakeFiles/Heart.dir/Heart.c.i
 
 src/CMakeFiles/Heart.dir/Heart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Heart.dir/Heart.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/Heart.c -o CMakeFiles/Heart.dir/Heart.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/Heart.c -o CMakeFiles/Heart.dir/Heart.c.s
 
 # Object files for target Heart
 Heart_OBJECTS = \

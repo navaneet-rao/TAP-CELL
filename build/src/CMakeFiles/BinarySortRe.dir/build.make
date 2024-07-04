@@ -73,15 +73,15 @@ src/CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.o: src/CMakeFiles/BinarySortRe.
 src/CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.o: ../src/BinarySortRe.cpp
 src/CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.o: src/CMakeFiles/BinarySortRe.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.o -MF CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.o.d -o CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.o -c /home/luke/PlacementTraning/src/BinarySortRe.cpp
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.o -MF CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.o.d -o CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.o -c /home/luke/PlacementTraning/src/BinarySortRe.cpp
 
 src/CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luke/PlacementTraning/src/BinarySortRe.cpp > CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luke/PlacementTraning/src/BinarySortRe.cpp > CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.i
 
 src/CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luke/PlacementTraning/src/BinarySortRe.cpp -o CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luke/PlacementTraning/src/BinarySortRe.cpp -o CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.s
 
 # Object files for target BinarySortRe
 BinarySortRe_OBJECTS = \

@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall CMakeFiles/Strore.dir/store.c.o -o Strore 
+/usr/bin/gcc -Wall -g CMakeFiles/Strore.dir/store.c.o -o Strore 

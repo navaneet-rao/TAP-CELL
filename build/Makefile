@@ -377,6 +377,32 @@ FindMaxMinInArr/fast:
 .PHONY : FindMaxMinInArr/fast
 
 #=============================================================================
+# Target rules for targets named FileOP1
+
+# Build rule for target.
+FileOP1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FileOP1
+.PHONY : FileOP1
+
+# fast build rule for target.
+FileOP1/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP1.dir/build.make src/CMakeFiles/FileOP1.dir/build
+.PHONY : FileOP1/fast
+
+#=============================================================================
+# Target rules for targets named FileOP2
+
+# Build rule for target.
+FileOP2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FileOP2
+.PHONY : FileOP2
+
+# fast build rule for target.
+FileOP2/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP2.dir/build.make src/CMakeFiles/FileOP2.dir/build
+.PHONY : FileOP2/fast
+
+#=============================================================================
 # Target rules for targets named BinarySortRe
 
 # Build rule for target.
@@ -388,6 +414,45 @@ BinarySortRe: cmake_check_build_system
 BinarySortRe/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/BinarySortRe.dir/build.make src/CMakeFiles/BinarySortRe.dir/build
 .PHONY : BinarySortRe/fast
+
+#=============================================================================
+# Target rules for targets named textcpp
+
+# Build rule for target.
+textcpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 textcpp
+.PHONY : textcpp
+
+# fast build rule for target.
+textcpp/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/textcpp.dir/build.make src/C++/CMakeFiles/textcpp.dir/build
+.PHONY : textcpp/fast
+
+#=============================================================================
+# Target rules for targets named ForEach
+
+# Build rule for target.
+ForEach: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ForEach
+.PHONY : ForEach
+
+# fast build rule for target.
+ForEach/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/ForEach.dir/build.make src/C++/CMakeFiles/ForEach.dir/build
+.PHONY : ForEach/fast
+
+#=============================================================================
+# Target rules for targets named swaps
+
+# Build rule for target.
+swaps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 swaps
+.PHONY : swaps
+
+# fast build rule for target.
+swaps/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/swaps.dir/build.make src/C++/CMakeFiles/swaps.dir/build
+.PHONY : swaps/fast
 
 # Help Target
 help:
@@ -404,7 +469,10 @@ help:
 	@echo "... CountSort"
 	@echo "... DynamicArr"
 	@echo "... EnumExample"
+	@echo "... FileOP1"
+	@echo "... FileOP2"
 	@echo "... FindMaxMinInArr"
+	@echo "... ForEach"
 	@echo "... HammingWeight"
 	@echo "... Heart"
 	@echo "... MatrixSparse"
@@ -418,6 +486,8 @@ help:
 	@echo "... Struct1"
 	@echo "... ZeroOne"
 	@echo "... ZigZag"
+	@echo "... swaps"
+	@echo "... textcpp"
 .PHONY : help
 
 

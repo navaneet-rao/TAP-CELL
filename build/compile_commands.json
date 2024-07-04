@@ -1,0 +1,132 @@
+[
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/ZigZag.dir/ZigZag.c.o -c /home/luke/PlacementTraning/src/ZigZag.c",
+  "file": "/home/luke/PlacementTraning/src/ZigZag.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/Regions.dir/Regions.c.o -c /home/luke/PlacementTraning/src/Regions.c",
+  "file": "/home/luke/PlacementTraning/src/Regions.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/EnumExample.dir/enumExample.c.o -c /home/luke/PlacementTraning/src/enumExample.c",
+  "file": "/home/luke/PlacementTraning/src/enumExample.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/ZeroOne.dir/ZeroOne.c.o -c /home/luke/PlacementTraning/src/ZeroOne.c",
+  "file": "/home/luke/PlacementTraning/src/ZeroOne.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/Heart.dir/Heart.c.o -c /home/luke/PlacementTraning/src/Heart.c",
+  "file": "/home/luke/PlacementTraning/src/Heart.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/HammingWeight.dir/HammingWeight.c.o -c /home/luke/PlacementTraning/src/HammingWeight.c",
+  "file": "/home/luke/PlacementTraning/src/HammingWeight.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/RevInt.dir/RevInt.c.o -c /home/luke/PlacementTraning/src/RevInt.c",
+  "file": "/home/luke/PlacementTraning/src/RevInt.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/Pointers.dir/Pointers.c.o -c /home/luke/PlacementTraning/src/Pointers.c",
+  "file": "/home/luke/PlacementTraning/src/Pointers.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/Pointer1.dir/Pointer1.c.o -c /home/luke/PlacementTraning/src/Pointer1.c",
+  "file": "/home/luke/PlacementTraning/src/Pointer1.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/Arr.dir/Arr.c.o -c /home/luke/PlacementTraning/src/Arr.c",
+  "file": "/home/luke/PlacementTraning/src/Arr.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/ArrNoSort.dir/ArrNoSort.c.o -c /home/luke/PlacementTraning/src/ArrNoSort.c",
+  "file": "/home/luke/PlacementTraning/src/ArrNoSort.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/BinarySort.dir/BinarySort.c.o -c /home/luke/PlacementTraning/src/BinarySort.c",
+  "file": "/home/luke/PlacementTraning/src/BinarySort.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/CountSort.dir/CountSort.c.o -c /home/luke/PlacementTraning/src/CountSort.c",
+  "file": "/home/luke/PlacementTraning/src/CountSort.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/RadixSort.dir/RadixSort.c.o -c /home/luke/PlacementTraning/src/RadixSort.c",
+  "file": "/home/luke/PlacementTraning/src/RadixSort.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/Struct1.dir/Struct1.c.o -c /home/luke/PlacementTraning/src/Struct1.c",
+  "file": "/home/luke/PlacementTraning/src/Struct1.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/Strore.dir/store.c.o -c /home/luke/PlacementTraning/src/store.c",
+  "file": "/home/luke/PlacementTraning/src/store.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/StroreU.dir/storeU.c.o -c /home/luke/PlacementTraning/src/storeU.c",
+  "file": "/home/luke/PlacementTraning/src/storeU.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o -c /home/luke/PlacementTraning/src/MatrixSparse.c",
+  "file": "/home/luke/PlacementTraning/src/MatrixSparse.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/DynamicArr.dir/DynamicArr.c.o -c /home/luke/PlacementTraning/src/DynamicArr.c",
+  "file": "/home/luke/PlacementTraning/src/DynamicArr.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o -c /home/luke/PlacementTraning/src/FindMaxMinInArray.c",
+  "file": "/home/luke/PlacementTraning/src/FindMaxMinInArray.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/FileOP1.dir/FileOP1.c.o -c /home/luke/PlacementTraning/src/FileOP1.c",
+  "file": "/home/luke/PlacementTraning/src/FileOP1.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/gcc  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu2x -o CMakeFiles/FileOP2.dir/FileOP2.c.o -c /home/luke/PlacementTraning/src/FileOP2.c",
+  "file": "/home/luke/PlacementTraning/src/FileOP2.c"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src",
+  "command": "/usr/bin/g++  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu++23 -o CMakeFiles/BinarySortRe.dir/BinarySortRe.cpp.o -c /home/luke/PlacementTraning/src/BinarySortRe.cpp",
+  "file": "/home/luke/PlacementTraning/src/BinarySortRe.cpp"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src/C++",
+  "command": "/usr/bin/g++  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu++23 -o CMakeFiles/textcpp.dir/test.cpp.o -c /home/luke/PlacementTraning/src/C++/test.cpp",
+  "file": "/home/luke/PlacementTraning/src/C++/test.cpp"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src/C++",
+  "command": "/usr/bin/g++  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu++23 -o CMakeFiles/ForEach.dir/ForEach.cpp.o -c /home/luke/PlacementTraning/src/C++/ForEach.cpp",
+  "file": "/home/luke/PlacementTraning/src/C++/ForEach.cpp"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src/C++",
+  "command": "/usr/bin/g++  -I/home/luke/PlacementTraning/include -Wall -g -std=gnu++23 -o CMakeFiles/swaps.dir/swaps.cpp.o -c /home/luke/PlacementTraning/src/C++/swaps.cpp",
+  "file": "/home/luke/PlacementTraning/src/C++/swaps.cpp"
+}
+]

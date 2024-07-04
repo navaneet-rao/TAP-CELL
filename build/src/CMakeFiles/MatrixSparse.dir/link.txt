@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o -o MatrixSparse 
+/usr/bin/gcc -Wall -g CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o -o MatrixSparse 

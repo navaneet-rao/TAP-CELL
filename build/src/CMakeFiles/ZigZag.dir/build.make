@@ -73,15 +73,15 @@ src/CMakeFiles/ZigZag.dir/ZigZag.c.o: src/CMakeFiles/ZigZag.dir/flags.make
 src/CMakeFiles/ZigZag.dir/ZigZag.c.o: ../src/ZigZag.c
 src/CMakeFiles/ZigZag.dir/ZigZag.c.o: src/CMakeFiles/ZigZag.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/ZigZag.dir/ZigZag.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/ZigZag.dir/ZigZag.c.o -MF CMakeFiles/ZigZag.dir/ZigZag.c.o.d -o CMakeFiles/ZigZag.dir/ZigZag.c.o -c /home/luke/PlacementTraning/src/ZigZag.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/ZigZag.dir/ZigZag.c.o -MF CMakeFiles/ZigZag.dir/ZigZag.c.o.d -o CMakeFiles/ZigZag.dir/ZigZag.c.o -c /home/luke/PlacementTraning/src/ZigZag.c
 
 src/CMakeFiles/ZigZag.dir/ZigZag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ZigZag.dir/ZigZag.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/ZigZag.c > CMakeFiles/ZigZag.dir/ZigZag.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/ZigZag.c > CMakeFiles/ZigZag.dir/ZigZag.c.i
 
 src/CMakeFiles/ZigZag.dir/ZigZag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ZigZag.dir/ZigZag.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/ZigZag.c -o CMakeFiles/ZigZag.dir/ZigZag.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/ZigZag.c -o CMakeFiles/ZigZag.dir/ZigZag.c.s
 
 # Object files for target ZigZag
 ZigZag_OBJECTS = \

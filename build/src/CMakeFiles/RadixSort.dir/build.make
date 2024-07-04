@@ -73,15 +73,15 @@ src/CMakeFiles/RadixSort.dir/RadixSort.c.o: src/CMakeFiles/RadixSort.dir/flags.m
 src/CMakeFiles/RadixSort.dir/RadixSort.c.o: ../src/RadixSort.c
 src/CMakeFiles/RadixSort.dir/RadixSort.c.o: src/CMakeFiles/RadixSort.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/RadixSort.dir/RadixSort.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/RadixSort.dir/RadixSort.c.o -MF CMakeFiles/RadixSort.dir/RadixSort.c.o.d -o CMakeFiles/RadixSort.dir/RadixSort.c.o -c /home/luke/PlacementTraning/src/RadixSort.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/RadixSort.dir/RadixSort.c.o -MF CMakeFiles/RadixSort.dir/RadixSort.c.o.d -o CMakeFiles/RadixSort.dir/RadixSort.c.o -c /home/luke/PlacementTraning/src/RadixSort.c
 
 src/CMakeFiles/RadixSort.dir/RadixSort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RadixSort.dir/RadixSort.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/RadixSort.c > CMakeFiles/RadixSort.dir/RadixSort.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/RadixSort.c > CMakeFiles/RadixSort.dir/RadixSort.c.i
 
 src/CMakeFiles/RadixSort.dir/RadixSort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RadixSort.dir/RadixSort.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/RadixSort.c -o CMakeFiles/RadixSort.dir/RadixSort.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/RadixSort.c -o CMakeFiles/RadixSort.dir/RadixSort.c.s
 
 # Object files for target RadixSort
 RadixSort_OBJECTS = \

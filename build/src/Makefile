@@ -397,6 +397,34 @@ FindMaxMinInArr/fast:
 .PHONY : FindMaxMinInArr/fast
 
 # Convenience name for target.
+src/CMakeFiles/FileOP1.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/FileOP1.dir/rule
+.PHONY : src/CMakeFiles/FileOP1.dir/rule
+
+# Convenience name for target.
+FileOP1: src/CMakeFiles/FileOP1.dir/rule
+.PHONY : FileOP1
+
+# fast build rule for target.
+FileOP1/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP1.dir/build.make src/CMakeFiles/FileOP1.dir/build
+.PHONY : FileOP1/fast
+
+# Convenience name for target.
+src/CMakeFiles/FileOP2.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/FileOP2.dir/rule
+.PHONY : src/CMakeFiles/FileOP2.dir/rule
+
+# Convenience name for target.
+FileOP2: src/CMakeFiles/FileOP2.dir/rule
+.PHONY : FileOP2
+
+# fast build rule for target.
+FileOP2/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP2.dir/build.make src/CMakeFiles/FileOP2.dir/build
+.PHONY : FileOP2/fast
+
+# Convenience name for target.
 src/CMakeFiles/BinarySortRe.dir/rule:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/BinarySortRe.dir/rule
 .PHONY : src/CMakeFiles/BinarySortRe.dir/rule
@@ -553,6 +581,54 @@ DynamicArr.s: DynamicArr.c.s
 DynamicArr.c.s:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/DynamicArr.dir/build.make src/CMakeFiles/DynamicArr.dir/DynamicArr.c.s
 .PHONY : DynamicArr.c.s
+
+FileOP1.o: FileOP1.c.o
+.PHONY : FileOP1.o
+
+# target to build an object file
+FileOP1.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP1.dir/build.make src/CMakeFiles/FileOP1.dir/FileOP1.c.o
+.PHONY : FileOP1.c.o
+
+FileOP1.i: FileOP1.c.i
+.PHONY : FileOP1.i
+
+# target to preprocess a source file
+FileOP1.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP1.dir/build.make src/CMakeFiles/FileOP1.dir/FileOP1.c.i
+.PHONY : FileOP1.c.i
+
+FileOP1.s: FileOP1.c.s
+.PHONY : FileOP1.s
+
+# target to generate assembly for a file
+FileOP1.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP1.dir/build.make src/CMakeFiles/FileOP1.dir/FileOP1.c.s
+.PHONY : FileOP1.c.s
+
+FileOP2.o: FileOP2.c.o
+.PHONY : FileOP2.o
+
+# target to build an object file
+FileOP2.c.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP2.dir/build.make src/CMakeFiles/FileOP2.dir/FileOP2.c.o
+.PHONY : FileOP2.c.o
+
+FileOP2.i: FileOP2.c.i
+.PHONY : FileOP2.i
+
+# target to preprocess a source file
+FileOP2.c.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP2.dir/build.make src/CMakeFiles/FileOP2.dir/FileOP2.c.i
+.PHONY : FileOP2.c.i
+
+FileOP2.s: FileOP2.c.s
+.PHONY : FileOP2.s
+
+# target to generate assembly for a file
+FileOP2.c.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FileOP2.dir/build.make src/CMakeFiles/FileOP2.dir/FileOP2.c.s
+.PHONY : FileOP2.c.s
 
 FindMaxMinInArray.o: FindMaxMinInArray.c.o
 .PHONY : FindMaxMinInArray.o
@@ -929,6 +1005,8 @@ help:
 	@echo "... CountSort"
 	@echo "... DynamicArr"
 	@echo "... EnumExample"
+	@echo "... FileOP1"
+	@echo "... FileOP2"
 	@echo "... FindMaxMinInArr"
 	@echo "... HammingWeight"
 	@echo "... Heart"
@@ -961,6 +1039,12 @@ help:
 	@echo "... DynamicArr.o"
 	@echo "... DynamicArr.i"
 	@echo "... DynamicArr.s"
+	@echo "... FileOP1.o"
+	@echo "... FileOP1.i"
+	@echo "... FileOP1.s"
+	@echo "... FileOP2.o"
+	@echo "... FileOP2.i"
+	@echo "... FileOP2.s"
 	@echo "... FindMaxMinInArray.o"
 	@echo "... FindMaxMinInArray.i"
 	@echo "... FindMaxMinInArray.s"

@@ -73,15 +73,15 @@ src/CMakeFiles/Struct1.dir/Struct1.c.o: src/CMakeFiles/Struct1.dir/flags.make
 src/CMakeFiles/Struct1.dir/Struct1.c.o: ../src/Struct1.c
 src/CMakeFiles/Struct1.dir/Struct1.c.o: src/CMakeFiles/Struct1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/Struct1.dir/Struct1.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Struct1.dir/Struct1.c.o -MF CMakeFiles/Struct1.dir/Struct1.c.o.d -o CMakeFiles/Struct1.dir/Struct1.c.o -c /home/luke/PlacementTraning/src/Struct1.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Struct1.dir/Struct1.c.o -MF CMakeFiles/Struct1.dir/Struct1.c.o.d -o CMakeFiles/Struct1.dir/Struct1.c.o -c /home/luke/PlacementTraning/src/Struct1.c
 
 src/CMakeFiles/Struct1.dir/Struct1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Struct1.dir/Struct1.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/Struct1.c > CMakeFiles/Struct1.dir/Struct1.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/Struct1.c > CMakeFiles/Struct1.dir/Struct1.c.i
 
 src/CMakeFiles/Struct1.dir/Struct1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Struct1.dir/Struct1.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/Struct1.c -o CMakeFiles/Struct1.dir/Struct1.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/Struct1.c -o CMakeFiles/Struct1.dir/Struct1.c.s
 
 # Object files for target Struct1
 Struct1_OBJECTS = \

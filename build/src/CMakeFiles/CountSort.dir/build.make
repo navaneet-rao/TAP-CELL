@@ -73,15 +73,15 @@ src/CMakeFiles/CountSort.dir/CountSort.c.o: src/CMakeFiles/CountSort.dir/flags.m
 src/CMakeFiles/CountSort.dir/CountSort.c.o: ../src/CountSort.c
 src/CMakeFiles/CountSort.dir/CountSort.c.o: src/CMakeFiles/CountSort.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/CountSort.dir/CountSort.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/CountSort.dir/CountSort.c.o -MF CMakeFiles/CountSort.dir/CountSort.c.o.d -o CMakeFiles/CountSort.dir/CountSort.c.o -c /home/luke/PlacementTraning/src/CountSort.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/CountSort.dir/CountSort.c.o -MF CMakeFiles/CountSort.dir/CountSort.c.o.d -o CMakeFiles/CountSort.dir/CountSort.c.o -c /home/luke/PlacementTraning/src/CountSort.c
 
 src/CMakeFiles/CountSort.dir/CountSort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CountSort.dir/CountSort.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/CountSort.c > CMakeFiles/CountSort.dir/CountSort.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/CountSort.c > CMakeFiles/CountSort.dir/CountSort.c.i
 
 src/CMakeFiles/CountSort.dir/CountSort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CountSort.dir/CountSort.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/CountSort.c -o CMakeFiles/CountSort.dir/CountSort.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/CountSort.c -o CMakeFiles/CountSort.dir/CountSort.c.s
 
 # Object files for target CountSort
 CountSort_OBJECTS = \

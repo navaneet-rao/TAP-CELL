@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall CMakeFiles/Regions.dir/Regions.c.o -o Regions 
+/usr/bin/gcc -Wall -g CMakeFiles/Regions.dir/Regions.c.o -o Regions 

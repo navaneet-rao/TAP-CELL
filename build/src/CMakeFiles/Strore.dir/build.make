@@ -73,15 +73,15 @@ src/CMakeFiles/Strore.dir/store.c.o: src/CMakeFiles/Strore.dir/flags.make
 src/CMakeFiles/Strore.dir/store.c.o: ../src/store.c
 src/CMakeFiles/Strore.dir/store.c.o: src/CMakeFiles/Strore.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/Strore.dir/store.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Strore.dir/store.c.o -MF CMakeFiles/Strore.dir/store.c.o.d -o CMakeFiles/Strore.dir/store.c.o -c /home/luke/PlacementTraning/src/store.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Strore.dir/store.c.o -MF CMakeFiles/Strore.dir/store.c.o.d -o CMakeFiles/Strore.dir/store.c.o -c /home/luke/PlacementTraning/src/store.c
 
 src/CMakeFiles/Strore.dir/store.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Strore.dir/store.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/store.c > CMakeFiles/Strore.dir/store.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/store.c > CMakeFiles/Strore.dir/store.c.i
 
 src/CMakeFiles/Strore.dir/store.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Strore.dir/store.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/store.c -o CMakeFiles/Strore.dir/store.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/store.c -o CMakeFiles/Strore.dir/store.c.s
 
 # Object files for target Strore
 Strore_OBJECTS = \

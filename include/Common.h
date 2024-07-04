@@ -29,5 +29,13 @@ void countSort(int arr[], int size);
 
 void findMaxMinInArray(int *arr, int size, int *max, int *min);
 
+int getMax(int arr[], int n);
+
+void countingSort(int arr[], int n, int exp);
+
+void radixSort(int arr[], int n);
+
+void printArray(int arr[], int n);
+
 #endif // !COMMON_H
 #define COMMON_H

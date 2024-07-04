@@ -73,15 +73,15 @@ src/CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o: src/CMakeFiles/MatrixSparse.di
 src/CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o: ../src/MatrixSparse.c
 src/CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o: src/CMakeFiles/MatrixSparse.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o -MF CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o.d -o CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o -c /home/luke/PlacementTraning/src/MatrixSparse.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o -MF CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o.d -o CMakeFiles/MatrixSparse.dir/MatrixSparse.c.o -c /home/luke/PlacementTraning/src/MatrixSparse.c
 
 src/CMakeFiles/MatrixSparse.dir/MatrixSparse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MatrixSparse.dir/MatrixSparse.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/MatrixSparse.c > CMakeFiles/MatrixSparse.dir/MatrixSparse.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/MatrixSparse.c > CMakeFiles/MatrixSparse.dir/MatrixSparse.c.i
 
 src/CMakeFiles/MatrixSparse.dir/MatrixSparse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MatrixSparse.dir/MatrixSparse.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/MatrixSparse.c -o CMakeFiles/MatrixSparse.dir/MatrixSparse.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/MatrixSparse.c -o CMakeFiles/MatrixSparse.dir/MatrixSparse.c.s
 
 # Object files for target MatrixSparse
 MatrixSparse_OBJECTS = \

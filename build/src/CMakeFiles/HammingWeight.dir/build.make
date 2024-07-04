@@ -73,15 +73,15 @@ src/CMakeFiles/HammingWeight.dir/HammingWeight.c.o: src/CMakeFiles/HammingWeight
 src/CMakeFiles/HammingWeight.dir/HammingWeight.c.o: ../src/HammingWeight.c
 src/CMakeFiles/HammingWeight.dir/HammingWeight.c.o: src/CMakeFiles/HammingWeight.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/HammingWeight.dir/HammingWeight.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/HammingWeight.dir/HammingWeight.c.o -MF CMakeFiles/HammingWeight.dir/HammingWeight.c.o.d -o CMakeFiles/HammingWeight.dir/HammingWeight.c.o -c /home/luke/PlacementTraning/src/HammingWeight.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/HammingWeight.dir/HammingWeight.c.o -MF CMakeFiles/HammingWeight.dir/HammingWeight.c.o.d -o CMakeFiles/HammingWeight.dir/HammingWeight.c.o -c /home/luke/PlacementTraning/src/HammingWeight.c
 
 src/CMakeFiles/HammingWeight.dir/HammingWeight.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HammingWeight.dir/HammingWeight.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/HammingWeight.c > CMakeFiles/HammingWeight.dir/HammingWeight.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/HammingWeight.c > CMakeFiles/HammingWeight.dir/HammingWeight.c.i
 
 src/CMakeFiles/HammingWeight.dir/HammingWeight.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HammingWeight.dir/HammingWeight.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/HammingWeight.c -o CMakeFiles/HammingWeight.dir/HammingWeight.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/HammingWeight.c -o CMakeFiles/HammingWeight.dir/HammingWeight.c.s
 
 # Object files for target HammingWeight
 HammingWeight_OBJECTS = \

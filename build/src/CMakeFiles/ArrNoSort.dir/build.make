@@ -73,15 +73,15 @@ src/CMakeFiles/ArrNoSort.dir/ArrNoSort.c.o: src/CMakeFiles/ArrNoSort.dir/flags.m
 src/CMakeFiles/ArrNoSort.dir/ArrNoSort.c.o: ../src/ArrNoSort.c
 src/CMakeFiles/ArrNoSort.dir/ArrNoSort.c.o: src/CMakeFiles/ArrNoSort.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/ArrNoSort.dir/ArrNoSort.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/ArrNoSort.dir/ArrNoSort.c.o -MF CMakeFiles/ArrNoSort.dir/ArrNoSort.c.o.d -o CMakeFiles/ArrNoSort.dir/ArrNoSort.c.o -c /home/luke/PlacementTraning/src/ArrNoSort.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/ArrNoSort.dir/ArrNoSort.c.o -MF CMakeFiles/ArrNoSort.dir/ArrNoSort.c.o.d -o CMakeFiles/ArrNoSort.dir/ArrNoSort.c.o -c /home/luke/PlacementTraning/src/ArrNoSort.c
 
 src/CMakeFiles/ArrNoSort.dir/ArrNoSort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ArrNoSort.dir/ArrNoSort.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/ArrNoSort.c > CMakeFiles/ArrNoSort.dir/ArrNoSort.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/ArrNoSort.c > CMakeFiles/ArrNoSort.dir/ArrNoSort.c.i
 
 src/CMakeFiles/ArrNoSort.dir/ArrNoSort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ArrNoSort.dir/ArrNoSort.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/ArrNoSort.c -o CMakeFiles/ArrNoSort.dir/ArrNoSort.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/ArrNoSort.c -o CMakeFiles/ArrNoSort.dir/ArrNoSort.c.s
 
 # Object files for target ArrNoSort
 ArrNoSort_OBJECTS = \

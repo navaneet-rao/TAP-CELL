@@ -73,15 +73,15 @@ src/CMakeFiles/Arr.dir/Arr.c.o: src/CMakeFiles/Arr.dir/flags.make
 src/CMakeFiles/Arr.dir/Arr.c.o: ../src/Arr.c
 src/CMakeFiles/Arr.dir/Arr.c.o: src/CMakeFiles/Arr.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luke/PlacementTraning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/Arr.dir/Arr.c.o"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Arr.dir/Arr.c.o -MF CMakeFiles/Arr.dir/Arr.c.o.d -o CMakeFiles/Arr.dir/Arr.c.o -c /home/luke/PlacementTraning/src/Arr.c
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/Arr.dir/Arr.c.o -MF CMakeFiles/Arr.dir/Arr.c.o.d -o CMakeFiles/Arr.dir/Arr.c.o -c /home/luke/PlacementTraning/src/Arr.c
 
 src/CMakeFiles/Arr.dir/Arr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arr.dir/Arr.c.i"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/Arr.c > CMakeFiles/Arr.dir/Arr.c.i
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luke/PlacementTraning/src/Arr.c > CMakeFiles/Arr.dir/Arr.c.i
 
 src/CMakeFiles/Arr.dir/Arr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arr.dir/Arr.c.s"
-	cd /home/luke/PlacementTraning/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/Arr.c -o CMakeFiles/Arr.dir/Arr.c.s
+	cd /home/luke/PlacementTraning/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luke/PlacementTraning/src/Arr.c -o CMakeFiles/Arr.dir/Arr.c.s
 
 # Object files for target Arr
 Arr_OBJECTS = \
