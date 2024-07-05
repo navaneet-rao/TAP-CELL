@@ -54,3 +54,11 @@ task runEX2(type: JavaExec) {
     mainClass = 'org.example.Exceptions2'
     classpath = sourceSets.main.runtimeClasspath
 }
+
+
+task runFileH1(type: JavaExec) {
+    group = 'application'
+    description = 'Runs the FileH1 class'
+    mainClass = 'org.example.FileH1'
+    classpath = sourceSets.main.runtimeClasspath
+}

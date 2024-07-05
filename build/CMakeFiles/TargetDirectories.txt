@@ -39,5 +39,12 @@
 /home/luke/PlacementTraning/build/src/C++/CMakeFiles/FriendFunc.dir
 /home/luke/PlacementTraning/build/src/C++/CMakeFiles/FriendFunc2.dir
 /home/luke/PlacementTraning/build/src/C++/CMakeFiles/DynamicMem.dir
+/home/luke/PlacementTraning/build/src/C++/CMakeFiles/FileH.dir
+/home/luke/PlacementTraning/build/src/C++/CMakeFiles/FileH2.dir
+/home/luke/PlacementTraning/build/src/C++/CMakeFiles/Story.dir
+/home/luke/PlacementTraning/build/src/C++/CMakeFiles/MergeSort.dir
+/home/luke/PlacementTraning/build/src/C++/CMakeFiles/Tree1.dir
+/home/luke/PlacementTraning/build/src/C++/CMakeFiles/MirrorTree.dir
+/home/luke/PlacementTraning/build/src/C++/CMakeFiles/RatTraversal.dir
 /home/luke/PlacementTraning/build/src/C++/CMakeFiles/edit_cache.dir
 /home/luke/PlacementTraning/build/src/C++/CMakeFiles/rebuild_cache.dir

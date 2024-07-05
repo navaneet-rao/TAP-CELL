@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall CMakeFiles/FileH.dir/FileH.cpp.o -o FileH 

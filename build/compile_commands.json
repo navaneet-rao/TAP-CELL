@@ -173,5 +173,40 @@
   "directory": "/home/luke/PlacementTraning/build/src/C++",
   "command": "/usr/bin/c++  -I/home/luke/PlacementTraning/include -Wall -std=gnu++11 -o CMakeFiles/DynamicMem.dir/DynamicMem.cpp.o -c /home/luke/PlacementTraning/src/C++/DynamicMem.cpp",
   "file": "/home/luke/PlacementTraning/src/C++/DynamicMem.cpp"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src/C++",
+  "command": "/usr/bin/c++  -I/home/luke/PlacementTraning/include -Wall -std=gnu++11 -o CMakeFiles/FileH.dir/FileH.cpp.o -c /home/luke/PlacementTraning/src/C++/FileH.cpp",
+  "file": "/home/luke/PlacementTraning/src/C++/FileH.cpp"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src/C++",
+  "command": "/usr/bin/c++  -I/home/luke/PlacementTraning/include -Wall -std=gnu++11 -o CMakeFiles/FileH2.dir/FileH2.cpp.o -c /home/luke/PlacementTraning/src/C++/FileH2.cpp",
+  "file": "/home/luke/PlacementTraning/src/C++/FileH2.cpp"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src/C++",
+  "command": "/usr/bin/c++  -I/home/luke/PlacementTraning/include -Wall -std=gnu++11 -o CMakeFiles/Story.dir/ProblemS1.cpp.o -c /home/luke/PlacementTraning/src/C++/ProblemS1.cpp",
+  "file": "/home/luke/PlacementTraning/src/C++/ProblemS1.cpp"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src/C++",
+  "command": "/usr/bin/c++  -I/home/luke/PlacementTraning/include -Wall -std=gnu++11 -o CMakeFiles/MergeSort.dir/MergeSort.cpp.o -c /home/luke/PlacementTraning/src/C++/MergeSort.cpp",
+  "file": "/home/luke/PlacementTraning/src/C++/MergeSort.cpp"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src/C++",
+  "command": "/usr/bin/c++  -I/home/luke/PlacementTraning/include -Wall -std=gnu++11 -o CMakeFiles/Tree1.dir/Tree1.cpp.o -c /home/luke/PlacementTraning/src/C++/Tree1.cpp",
+  "file": "/home/luke/PlacementTraning/src/C++/Tree1.cpp"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src/C++",
+  "command": "/usr/bin/c++  -I/home/luke/PlacementTraning/include -Wall -std=gnu++11 -o CMakeFiles/MirrorTree.dir/MirrorTree.cpp.o -c /home/luke/PlacementTraning/src/C++/MirrorTree.cpp",
+  "file": "/home/luke/PlacementTraning/src/C++/MirrorTree.cpp"
+},
+{
+  "directory": "/home/luke/PlacementTraning/build/src/C++",
+  "command": "/usr/bin/c++  -I/home/luke/PlacementTraning/include -Wall -std=gnu++11 -o CMakeFiles/RatTraversal.dir/RatTraversal.cpp.o -c /home/luke/PlacementTraning/src/C++/RatTraversal.cpp",
+  "file": "/home/luke/PlacementTraning/src/C++/RatTraversal.cpp"
 }
 ]

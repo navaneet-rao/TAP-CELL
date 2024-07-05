@@ -284,6 +284,104 @@ DynamicMem/fast:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/DynamicMem.dir/build.make src/C++/CMakeFiles/DynamicMem.dir/build
 .PHONY : DynamicMem/fast
 
+# Convenience name for target.
+src/C++/CMakeFiles/FileH.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/FileH.dir/rule
+.PHONY : src/C++/CMakeFiles/FileH.dir/rule
+
+# Convenience name for target.
+FileH: src/C++/CMakeFiles/FileH.dir/rule
+.PHONY : FileH
+
+# fast build rule for target.
+FileH/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FileH.dir/build.make src/C++/CMakeFiles/FileH.dir/build
+.PHONY : FileH/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/FileH2.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/FileH2.dir/rule
+.PHONY : src/C++/CMakeFiles/FileH2.dir/rule
+
+# Convenience name for target.
+FileH2: src/C++/CMakeFiles/FileH2.dir/rule
+.PHONY : FileH2
+
+# fast build rule for target.
+FileH2/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FileH2.dir/build.make src/C++/CMakeFiles/FileH2.dir/build
+.PHONY : FileH2/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/Story.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/Story.dir/rule
+.PHONY : src/C++/CMakeFiles/Story.dir/rule
+
+# Convenience name for target.
+Story: src/C++/CMakeFiles/Story.dir/rule
+.PHONY : Story
+
+# fast build rule for target.
+Story/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Story.dir/build.make src/C++/CMakeFiles/Story.dir/build
+.PHONY : Story/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/MergeSort.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/MergeSort.dir/rule
+.PHONY : src/C++/CMakeFiles/MergeSort.dir/rule
+
+# Convenience name for target.
+MergeSort: src/C++/CMakeFiles/MergeSort.dir/rule
+.PHONY : MergeSort
+
+# fast build rule for target.
+MergeSort/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/MergeSort.dir/build.make src/C++/CMakeFiles/MergeSort.dir/build
+.PHONY : MergeSort/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/Tree1.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/Tree1.dir/rule
+.PHONY : src/C++/CMakeFiles/Tree1.dir/rule
+
+# Convenience name for target.
+Tree1: src/C++/CMakeFiles/Tree1.dir/rule
+.PHONY : Tree1
+
+# fast build rule for target.
+Tree1/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Tree1.dir/build.make src/C++/CMakeFiles/Tree1.dir/build
+.PHONY : Tree1/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/MirrorTree.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/MirrorTree.dir/rule
+.PHONY : src/C++/CMakeFiles/MirrorTree.dir/rule
+
+# Convenience name for target.
+MirrorTree: src/C++/CMakeFiles/MirrorTree.dir/rule
+.PHONY : MirrorTree
+
+# fast build rule for target.
+MirrorTree/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/MirrorTree.dir/build.make src/C++/CMakeFiles/MirrorTree.dir/build
+.PHONY : MirrorTree/fast
+
+# Convenience name for target.
+src/C++/CMakeFiles/RatTraversal.dir/rule:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/C++/CMakeFiles/RatTraversal.dir/rule
+.PHONY : src/C++/CMakeFiles/RatTraversal.dir/rule
+
+# Convenience name for target.
+RatTraversal: src/C++/CMakeFiles/RatTraversal.dir/rule
+.PHONY : RatTraversal
+
+# fast build rule for target.
+RatTraversal/fast:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/RatTraversal.dir/build.make src/C++/CMakeFiles/RatTraversal.dir/build
+.PHONY : RatTraversal/fast
+
 DynamicMem.o: DynamicMem.cpp.o
 .PHONY : DynamicMem.o
 
@@ -331,6 +429,54 @@ ExecptionH.s: ExecptionH.cpp.s
 ExecptionH.cpp.s:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/ExH.dir/build.make src/C++/CMakeFiles/ExH.dir/ExecptionH.cpp.s
 .PHONY : ExecptionH.cpp.s
+
+FileH.o: FileH.cpp.o
+.PHONY : FileH.o
+
+# target to build an object file
+FileH.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FileH.dir/build.make src/C++/CMakeFiles/FileH.dir/FileH.cpp.o
+.PHONY : FileH.cpp.o
+
+FileH.i: FileH.cpp.i
+.PHONY : FileH.i
+
+# target to preprocess a source file
+FileH.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FileH.dir/build.make src/C++/CMakeFiles/FileH.dir/FileH.cpp.i
+.PHONY : FileH.cpp.i
+
+FileH.s: FileH.cpp.s
+.PHONY : FileH.s
+
+# target to generate assembly for a file
+FileH.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FileH.dir/build.make src/C++/CMakeFiles/FileH.dir/FileH.cpp.s
+.PHONY : FileH.cpp.s
+
+FileH2.o: FileH2.cpp.o
+.PHONY : FileH2.o
+
+# target to build an object file
+FileH2.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FileH2.dir/build.make src/C++/CMakeFiles/FileH2.dir/FileH2.cpp.o
+.PHONY : FileH2.cpp.o
+
+FileH2.i: FileH2.cpp.i
+.PHONY : FileH2.i
+
+# target to preprocess a source file
+FileH2.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FileH2.dir/build.make src/C++/CMakeFiles/FileH2.dir/FileH2.cpp.i
+.PHONY : FileH2.cpp.i
+
+FileH2.s: FileH2.cpp.s
+.PHONY : FileH2.s
+
+# target to generate assembly for a file
+FileH2.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FileH2.dir/build.make src/C++/CMakeFiles/FileH2.dir/FileH2.cpp.s
+.PHONY : FileH2.cpp.s
 
 ForEach.o: ForEach.cpp.o
 .PHONY : ForEach.o
@@ -428,6 +574,54 @@ InHerr.cpp.s:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/InHerr.dir/build.make src/C++/CMakeFiles/InHerr.dir/InHerr.cpp.s
 .PHONY : InHerr.cpp.s
 
+MergeSort.o: MergeSort.cpp.o
+.PHONY : MergeSort.o
+
+# target to build an object file
+MergeSort.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/MergeSort.dir/build.make src/C++/CMakeFiles/MergeSort.dir/MergeSort.cpp.o
+.PHONY : MergeSort.cpp.o
+
+MergeSort.i: MergeSort.cpp.i
+.PHONY : MergeSort.i
+
+# target to preprocess a source file
+MergeSort.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/MergeSort.dir/build.make src/C++/CMakeFiles/MergeSort.dir/MergeSort.cpp.i
+.PHONY : MergeSort.cpp.i
+
+MergeSort.s: MergeSort.cpp.s
+.PHONY : MergeSort.s
+
+# target to generate assembly for a file
+MergeSort.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/MergeSort.dir/build.make src/C++/CMakeFiles/MergeSort.dir/MergeSort.cpp.s
+.PHONY : MergeSort.cpp.s
+
+MirrorTree.o: MirrorTree.cpp.o
+.PHONY : MirrorTree.o
+
+# target to build an object file
+MirrorTree.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/MirrorTree.dir/build.make src/C++/CMakeFiles/MirrorTree.dir/MirrorTree.cpp.o
+.PHONY : MirrorTree.cpp.o
+
+MirrorTree.i: MirrorTree.cpp.i
+.PHONY : MirrorTree.i
+
+# target to preprocess a source file
+MirrorTree.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/MirrorTree.dir/build.make src/C++/CMakeFiles/MirrorTree.dir/MirrorTree.cpp.i
+.PHONY : MirrorTree.cpp.i
+
+MirrorTree.s: MirrorTree.cpp.s
+.PHONY : MirrorTree.s
+
+# target to generate assembly for a file
+MirrorTree.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/MirrorTree.dir/build.make src/C++/CMakeFiles/MirrorTree.dir/MirrorTree.cpp.s
+.PHONY : MirrorTree.cpp.s
+
 Overloading.o: Overloading.cpp.o
 .PHONY : Overloading.o
 
@@ -475,6 +669,78 @@ Overloading2.s: Overloading2.cpp.s
 Overloading2.cpp.s:
 	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Overloading2.dir/build.make src/C++/CMakeFiles/Overloading2.dir/Overloading2.cpp.s
 .PHONY : Overloading2.cpp.s
+
+ProblemS1.o: ProblemS1.cpp.o
+.PHONY : ProblemS1.o
+
+# target to build an object file
+ProblemS1.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Story.dir/build.make src/C++/CMakeFiles/Story.dir/ProblemS1.cpp.o
+.PHONY : ProblemS1.cpp.o
+
+ProblemS1.i: ProblemS1.cpp.i
+.PHONY : ProblemS1.i
+
+# target to preprocess a source file
+ProblemS1.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Story.dir/build.make src/C++/CMakeFiles/Story.dir/ProblemS1.cpp.i
+.PHONY : ProblemS1.cpp.i
+
+ProblemS1.s: ProblemS1.cpp.s
+.PHONY : ProblemS1.s
+
+# target to generate assembly for a file
+ProblemS1.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Story.dir/build.make src/C++/CMakeFiles/Story.dir/ProblemS1.cpp.s
+.PHONY : ProblemS1.cpp.s
+
+RatTraversal.o: RatTraversal.cpp.o
+.PHONY : RatTraversal.o
+
+# target to build an object file
+RatTraversal.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/RatTraversal.dir/build.make src/C++/CMakeFiles/RatTraversal.dir/RatTraversal.cpp.o
+.PHONY : RatTraversal.cpp.o
+
+RatTraversal.i: RatTraversal.cpp.i
+.PHONY : RatTraversal.i
+
+# target to preprocess a source file
+RatTraversal.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/RatTraversal.dir/build.make src/C++/CMakeFiles/RatTraversal.dir/RatTraversal.cpp.i
+.PHONY : RatTraversal.cpp.i
+
+RatTraversal.s: RatTraversal.cpp.s
+.PHONY : RatTraversal.s
+
+# target to generate assembly for a file
+RatTraversal.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/RatTraversal.dir/build.make src/C++/CMakeFiles/RatTraversal.dir/RatTraversal.cpp.s
+.PHONY : RatTraversal.cpp.s
+
+Tree1.o: Tree1.cpp.o
+.PHONY : Tree1.o
+
+# target to build an object file
+Tree1.cpp.o:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Tree1.dir/build.make src/C++/CMakeFiles/Tree1.dir/Tree1.cpp.o
+.PHONY : Tree1.cpp.o
+
+Tree1.i: Tree1.cpp.i
+.PHONY : Tree1.i
+
+# target to preprocess a source file
+Tree1.cpp.i:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Tree1.dir/build.make src/C++/CMakeFiles/Tree1.dir/Tree1.cpp.i
+.PHONY : Tree1.cpp.i
+
+Tree1.s: Tree1.cpp.s
+.PHONY : Tree1.s
+
+# target to generate assembly for a file
+Tree1.cpp.s:
+	cd /home/luke/PlacementTraning/build && $(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Tree1.dir/build.make src/C++/CMakeFiles/Tree1.dir/Tree1.cpp.s
+.PHONY : Tree1.cpp.s
 
 exampleH.o: exampleH.cpp.o
 .PHONY : exampleH.o
@@ -582,14 +848,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... DynamicMem"
 	@echo "... ExH"
+	@echo "... FileH"
+	@echo "... FileH2"
 	@echo "... ForEach"
 	@echo "... FriendFunc"
 	@echo "... FriendFunc2"
 	@echo "... Hexample"
 	@echo "... InHerr"
 	@echo "... InfosysQ"
+	@echo "... MergeSort"
+	@echo "... MirrorTree"
 	@echo "... Overloading"
 	@echo "... Overloading2"
+	@echo "... RatTraversal"
+	@echo "... Story"
+	@echo "... Tree1"
 	@echo "... swaps"
 	@echo "... textcpp"
 	@echo "... DynamicMem.o"
@@ -598,6 +871,12 @@ help:
 	@echo "... ExecptionH.o"
 	@echo "... ExecptionH.i"
 	@echo "... ExecptionH.s"
+	@echo "... FileH.o"
+	@echo "... FileH.i"
+	@echo "... FileH.s"
+	@echo "... FileH2.o"
+	@echo "... FileH2.i"
+	@echo "... FileH2.s"
 	@echo "... ForEach.o"
 	@echo "... ForEach.i"
 	@echo "... ForEach.s"
@@ -610,12 +889,27 @@ help:
 	@echo "... InHerr.o"
 	@echo "... InHerr.i"
 	@echo "... InHerr.s"
+	@echo "... MergeSort.o"
+	@echo "... MergeSort.i"
+	@echo "... MergeSort.s"
+	@echo "... MirrorTree.o"
+	@echo "... MirrorTree.i"
+	@echo "... MirrorTree.s"
 	@echo "... Overloading.o"
 	@echo "... Overloading.i"
 	@echo "... Overloading.s"
 	@echo "... Overloading2.o"
 	@echo "... Overloading2.i"
 	@echo "... Overloading2.s"
+	@echo "... ProblemS1.o"
+	@echo "... ProblemS1.i"
+	@echo "... ProblemS1.s"
+	@echo "... RatTraversal.o"
+	@echo "... RatTraversal.i"
+	@echo "... RatTraversal.s"
+	@echo "... Tree1.o"
+	@echo "... Tree1.i"
+	@echo "... Tree1.s"
 	@echo "... exampleH.o"
 	@echo "... exampleH.i"
 	@echo "... exampleH.s"

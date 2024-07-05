@@ -1,5 +1,7 @@
 #include <algorithm>
 #include <cstdlib>
+#include <fstream>
+#include <ios>
 #include <iostream>
 #include <string>
 

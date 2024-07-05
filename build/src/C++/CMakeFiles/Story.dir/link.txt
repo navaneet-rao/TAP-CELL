@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall CMakeFiles/Story.dir/ProblemS1.cpp.o -o Story 

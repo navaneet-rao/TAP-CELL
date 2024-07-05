@@ -571,6 +571,97 @@ DynamicMem/fast:
 	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/DynamicMem.dir/build.make src/C++/CMakeFiles/DynamicMem.dir/build
 .PHONY : DynamicMem/fast
 
+#=============================================================================
+# Target rules for targets named FileH
+
+# Build rule for target.
+FileH: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FileH
+.PHONY : FileH
+
+# fast build rule for target.
+FileH/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FileH.dir/build.make src/C++/CMakeFiles/FileH.dir/build
+.PHONY : FileH/fast
+
+#=============================================================================
+# Target rules for targets named FileH2
+
+# Build rule for target.
+FileH2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FileH2
+.PHONY : FileH2
+
+# fast build rule for target.
+FileH2/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/FileH2.dir/build.make src/C++/CMakeFiles/FileH2.dir/build
+.PHONY : FileH2/fast
+
+#=============================================================================
+# Target rules for targets named Story
+
+# Build rule for target.
+Story: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Story
+.PHONY : Story
+
+# fast build rule for target.
+Story/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Story.dir/build.make src/C++/CMakeFiles/Story.dir/build
+.PHONY : Story/fast
+
+#=============================================================================
+# Target rules for targets named MergeSort
+
+# Build rule for target.
+MergeSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MergeSort
+.PHONY : MergeSort
+
+# fast build rule for target.
+MergeSort/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/MergeSort.dir/build.make src/C++/CMakeFiles/MergeSort.dir/build
+.PHONY : MergeSort/fast
+
+#=============================================================================
+# Target rules for targets named Tree1
+
+# Build rule for target.
+Tree1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tree1
+.PHONY : Tree1
+
+# fast build rule for target.
+Tree1/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/Tree1.dir/build.make src/C++/CMakeFiles/Tree1.dir/build
+.PHONY : Tree1/fast
+
+#=============================================================================
+# Target rules for targets named MirrorTree
+
+# Build rule for target.
+MirrorTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MirrorTree
+.PHONY : MirrorTree
+
+# fast build rule for target.
+MirrorTree/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/MirrorTree.dir/build.make src/C++/CMakeFiles/MirrorTree.dir/build
+.PHONY : MirrorTree/fast
+
+#=============================================================================
+# Target rules for targets named RatTraversal
+
+# Build rule for target.
+RatTraversal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RatTraversal
+.PHONY : RatTraversal
+
+# fast build rule for target.
+RatTraversal/fast:
+	$(MAKE) $(MAKESILENT) -f src/C++/CMakeFiles/RatTraversal.dir/build.make src/C++/CMakeFiles/RatTraversal.dir/build
+.PHONY : RatTraversal/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -588,6 +679,8 @@ help:
 	@echo "... DynamicMem"
 	@echo "... EnumExample"
 	@echo "... ExH"
+	@echo "... FileH"
+	@echo "... FileH2"
 	@echo "... FileOP1"
 	@echo "... FileOP2"
 	@echo "... FindMaxMinInArr"
@@ -600,16 +693,21 @@ help:
 	@echo "... InHerr"
 	@echo "... InfosysQ"
 	@echo "... MatrixSparse"
+	@echo "... MergeSort"
+	@echo "... MirrorTree"
 	@echo "... Overloading"
 	@echo "... Overloading2"
 	@echo "... Pointer1"
 	@echo "... Pointers"
 	@echo "... RadixSort"
+	@echo "... RatTraversal"
 	@echo "... Regions"
 	@echo "... RevInt"
+	@echo "... Story"
 	@echo "... Strore"
 	@echo "... StroreU"
 	@echo "... Struct1"
+	@echo "... Tree1"
 	@echo "... ZeroOne"
 	@echo "... ZigZag"
 	@echo "... swaps"

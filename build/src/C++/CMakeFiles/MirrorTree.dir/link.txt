@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall CMakeFiles/MirrorTree.dir/MirrorTree.cpp.o -o MirrorTree 
