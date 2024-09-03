@@ -29,11 +29,34 @@ public:
     head = n;
   }
 
-  void Display() {
+  void insertAtTail(int val) {
+    Node *n = new Node(val);
+    if (head == NULL) {
+      head = n;
+      return;
+    }
+    Node *temp = head;
+    while (temp->next != NULL) {
+      temp = temp->next;
+    }
+    temp->next = n;
+  }
 
-    while (head != NULL) {
-      cout << head->data << "->";
-      head = head->next;
+  void insertAtPosition(int val, int pos) {
+    Node *n = new Node(val);
+    Node *temp = head;
+    while (--pos) {
+      temp = temp->next;
+    }
+    n->next = temp->next;
+    temp->next = n;
+  }
+
+  void Display() {
+    Node *temp = head;
+    while (temp != NULL) {
+      cout << temp->data << "->";
+      temp = temp->next;
     }
 
     cout << "NULL" << endl;
@@ -44,6 +67,7 @@ public:
 //   Node *n = new Node(val);
 //   n->next = head;
 //   head = n;
+// }
 
 // void insertAtHead(int val, Node **head) {
 //   Node *n = new Node(val);
@@ -69,6 +93,12 @@ int main(int argc, char *argv[]) {
   ll.insertAtHead(20);
   ll.insertAtHead(30);
 
+  ll.insertAtTail(10);
+  ll.insertAtTail(20);
+
   ll.Display();
+
+  ll.insertAtPosition(100, 3);
+
   return 0;
 }
