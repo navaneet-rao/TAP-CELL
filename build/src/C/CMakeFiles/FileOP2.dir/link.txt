@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall CMakeFiles/FileOP2.dir/FileOP2.c.o -o FileOP2 
+/usr/bin/cc -Wall CMakeFiles/FileOP2.dir/FileOP2.c.o -o FileOP2

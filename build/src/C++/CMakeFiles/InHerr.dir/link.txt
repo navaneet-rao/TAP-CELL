@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wall CMakeFiles/InHerr.dir/InHerr.cpp.o -o InHerr 
+/usr/bin/c++ -Wall CMakeFiles/InHerr.dir/InHerr.cpp.o -o InHerr

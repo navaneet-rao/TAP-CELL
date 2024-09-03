@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall CMakeFiles/StroreU.dir/storeU.c.o -o StroreU 
+/usr/bin/cc -Wall CMakeFiles/StroreU.dir/storeU.c.o -o StroreU

@@ -1,6 +1,6 @@
 src/C/CMakeFiles/StroreU.dir/storeU.c.o: \
- /home/luke/PlacementTraning/src/C/storeU.c /usr/include/stdc-predef.h \
- /home/luke/PlacementTraning/include/Common.h /usr/include/stdio.h \
+ /home/luke/code/TAP-CELL/src/C/storeU.c /usr/include/stdc-predef.h \
+ /home/luke/code/TAP-CELL/include/Common.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

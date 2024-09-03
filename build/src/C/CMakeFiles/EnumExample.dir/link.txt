@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall CMakeFiles/EnumExample.dir/enumExample.c.o -o EnumExample 
+/usr/bin/cc -Wall CMakeFiles/EnumExample.dir/enumExample.c.o -o EnumExample

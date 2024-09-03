@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wall CMakeFiles/ForEach.dir/ForEach.cpp.o -o ForEach 
+/usr/bin/c++ -Wall CMakeFiles/ForEach.dir/ForEach.cpp.o -o ForEach

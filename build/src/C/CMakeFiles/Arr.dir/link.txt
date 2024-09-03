@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall CMakeFiles/Arr.dir/Arr.c.o -o Arr 
+/usr/bin/cc -Wall CMakeFiles/Arr.dir/Arr.c.o -o Arr

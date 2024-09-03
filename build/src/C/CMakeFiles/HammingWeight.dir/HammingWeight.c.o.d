@@ -1,6 +1,6 @@
 src/C/CMakeFiles/HammingWeight.dir/HammingWeight.c.o: \
- /home/luke/PlacementTraning/src/C/HammingWeight.c \
- /usr/include/stdc-predef.h /home/luke/PlacementTraning/include/Common.h \
+ /home/luke/code/TAP-CELL/src/C/HammingWeight.c \
+ /usr/include/stdc-predef.h /home/luke/code/TAP-CELL/include/Common.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

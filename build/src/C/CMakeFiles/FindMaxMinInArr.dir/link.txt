@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o -o FindMaxMinInArr 
+/usr/bin/cc -Wall CMakeFiles/FindMaxMinInArr.dir/FindMaxMinInArray.c.o -o FindMaxMinInArr

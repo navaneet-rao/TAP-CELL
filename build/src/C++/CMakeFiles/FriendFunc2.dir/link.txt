@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wall CMakeFiles/FriendFunc2.dir/FriendFunc2.cpp.o -o FriendFunc2 
+/usr/bin/c++ -Wall CMakeFiles/FriendFunc2.dir/FriendFunc2.cpp.o -o FriendFunc2

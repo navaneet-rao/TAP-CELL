@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall CMakeFiles/Pointers.dir/Pointers.c.o -o Pointers 
+/usr/bin/cc -Wall CMakeFiles/Pointers.dir/Pointers.c.o -o Pointers
